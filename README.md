@@ -208,7 +208,7 @@ Disclosure Response should exist, and have relevant technical, business, and leg
 Disaster Recovery should be tested regularly e.g. to ensure backup restoration works)
 A planned introduction of monitoring software with alerts generated for the right people
 
-##Lifecycle, provenance, sustainability & futureproofing
+## Lifecycle, provenance, sustainability & futureproofing
 Contributors: Alasdair Allan @aallan, Chris Adams @mchrisadams, Adrian McEwen @amcewen, Dries De Roeck @driesderoeck, Matthew Macdonald-Wallace @mbconsultinguk, Joanna Montgomery @joannasaurusrex,  Gavin Starks @agentGav
 
 ### The company MUST be clear about the expected lifetime of the product and the expected support the customer should expect. 
