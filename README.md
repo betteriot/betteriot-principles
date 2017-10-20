@@ -1,5 +1,3 @@
-# Iot Mark Principles
-
 # IoT Mark principles
 Open IoT Certification Mark Principles – October 18th 2017
 
