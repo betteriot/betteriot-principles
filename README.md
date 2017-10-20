@@ -3,10 +3,10 @@
  
 Open IoT Certification Mark Principles – October 18th 2017
 
-Draft edited by @iotwatch
+Draft edited by [@iotwatch](https://twitter.com/iotwatch)
 
 ## Privacy
-Contributors: @marksimpkins 
+Contributors: [@marksimpkins](https://twitter.com/marksimpkins) 
 
 ### The product or service the company supplies MUST be General Data Protection Regulation (GDPR) compliant. 
 
@@ -21,7 +21,7 @@ Assessment criteria: GDPR policy is published on the company website / a simple 
 Assessment criteria: ICA compliant (registration number)
 
 ## Interoperability
-Contributors: @andysc, @borisadryan, @nullr0ute, @bobvanluijt, @tamberg
+Contributors: [@andysc](https://twitter.com/andysc), [@borisadryan](https://twitter.com/borisadryan), [@nullr0ute](https://twitter.com/nullr0ute), [@bobvanluijt](https://twitter.com/bobvanluijt), [@tamberg](https://twitter.com/tamberg)
 
 ### The company MUST have developed and published an API. The company MUST allow third parties to connect devices, apps and services to its backend API. 
 
@@ -45,7 +45,7 @@ Assessment criteria: The company provides URL(s) of publicly accessible document
 - Data format (e.g. binary encoding)
 
 ## Openness
-Contributors: @tamberg, ...
+Contributors: [@tamberg](https://twitter.com/tamberg), ...
 
 ### The company SHOULD publish the device source code under an open source license.
 	
@@ -60,7 +60,7 @@ Assessment criteria: Files are accessible on inspection.These may include but no
 Assessment criteria: Files are accessible on inspection. We recommend using MIT License or Apache 2 or AGPLv3 licenses for the source code or at least a license compliant with the Open Source Definition (https://opensource.org/docs/osd).
 
 ## Data Governance
-Contributors: Dr. Alison Powell, @marksimpkins, Selena Nemorin @digiteracy
+Contributors: Dr. Alison Powell, [@marksimpkins](https://twitter.com/marksimpkins), Selena Nemorin [@digiteracy](https://twitter.com/digiteracy)
 
 ### The company SHOULD make it visible to its customers what data and channels of communication the device / service uses.
 
@@ -75,7 +75,7 @@ Assessment criteria: The dependancy label is included on product or packaging as
 Assessment criteria: List of core functionality vs. secondary functionality. Access to all commercially accessible versions of products for testing. Test the core functionality on audit.
 
 ## Permissions, Entitlement
-Contributors: Martin Dittus @dekstop, @marksimpkins, Selena Nemorin @digiteracy
+Contributors: [@dekstop](https://twitter.com/dekstop), [@marksimpkins](https://twitter.com/marksimpkins), [@digiteracy](https://twitter.com/digiteracy)
 
 ### Switch guarantee - A company should offer customers the right to transfer ownership of hardware, to export their data, and to migrate service providers.
 
@@ -95,7 +95,7 @@ Assessement criteria: Include on product or packaging. Use our labelling system.
 Assessment criteria: Terms & conditions changes are communicated to customers and their permission is sought explicitly.
 
 ## Security
-Contributors: Mark Carney @LargeCardinal, Graham Markall @gmarkall, Jan-Peter Kleinhans
+Contributors: [@LargeCardinal](https://twitter.com/LargeCardinal), [@gmarkall](https://twitter.com/gmarkall), Jan-Peter Kleinhans
 
 ### The company MUST provide minimum cryptographic security on its servers & secure configuration
 A company’s customers should be protected and the security of their products should be a priority in the development cycle. 
@@ -212,7 +212,7 @@ Disaster Recovery should be tested regularly e.g. to ensure backup restoration w
 A planned introduction of monitoring software with alerts generated for the right people
 
 ## Lifecycle, provenance, sustainability & futureproofing
-Contributors: Alasdair Allan @aallan, Chris Adams @mchrisadams, Adrian McEwen @amcewen, Dries De Roeck @driesderoeck, Matthew Macdonald-Wallace @mbconsultinguk, Joanna Montgomery @joannasaurusrex,  Gavin Starks @agentGav
+Contributors: [@aallan](https://twitter.com/aallan), [@mchrisadams](https://twitter.com/mchrisadams), [@amcewen](https://twitter.com/amcewen), [@driesderoeck](https://twitter.com/driesderoeck), [@mbconsultinguk](https://twitter.com/mbconsultinguk), [@joannasaurusrex](https://twitter.com/joannasaurusrex), [@agentGav](https://twitter.com/agentGav)
 
 ### The company MUST be clear about the expected lifetime of the product and the expected support the customer should expect. 
 
