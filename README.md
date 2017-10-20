@@ -8,7 +8,7 @@ Draft edited by [@iotwatch](https://twitter.com/iotwatch)
 ## Privacy
 Contributors: [@marksimpkins](https://twitter.com/marksimpkins) 
 
-1. ### The product or service the company supplies MUST be General Data Protection Regulation (GDPR) compliant. 
+### The product or service the company supplies MUST be General Data Protection Regulation (GDPR) compliant. 
 
 The company should make sure customers are able gain access to information about the use of their data (e.g how the data is processed, insights generated from the data). 
 The company offers customers the right to delete their data and metadata.
@@ -16,7 +16,7 @@ Customers are given the ability to selectively withdraw permissions of use of th
 
 Assessment criteria: GDPR policy is published on the company website / a simple checklist is completed. Use our checklist. The company website publishes a form where a customer can request the deletion of their account and history. The company website offers customers the choice to switch on or off core or secondary functionalities and are clear about the impact of those choices. 
 
-1. ### The company SHALL NOT utilise their products to sell customer data to third parties without the knowledge of their customers. Their customer’s data SHALL NOT be used for profiling, marketing or advertising without transparent disclosure. 
+### The company SHALL NOT utilise their products to sell customer data to third parties without the knowledge of their customers. Their customer’s data SHALL NOT be used for profiling, marketing or advertising without transparent disclosure. 
 
 Assessment criteria: ICA compliant (registration number)
 
