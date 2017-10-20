@@ -1,4 +1,4 @@
-# IoT Mark principles
+# IoT Mark Principles (manually synced mirror of GDoc)
 Open IoT Certification Mark Principles – October 18th 2017
 
 Draft edited by @iotwatch
