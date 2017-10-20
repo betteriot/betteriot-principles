@@ -23,7 +23,7 @@ Assessment criteria: ICA compliant (registration number)
 ## Interoperability
 Contributors: [@andysc](https://twitter.com/andysc), [@borisadryan](https://twitter.com/borisadryan), [@nullr0ute](https://twitter.com/nullr0ute), [@bobvanluijt](https://twitter.com/bobvanluijt), [@tamberg](https://twitter.com/tamberg)
 
-### 3. The company MUST have developed and published an API. The company MUST allow third parties to connect devices, apps and services to its backend API. 
+### 3. The company MUST allow third parties to connect devices, apps and services to its backend API. 
 
 Assessment criteria: The company provides URL(s) of publicly accessible documentation of the backend Application Programming Interface (API) for all of the following aspects:
 - Endpoints (e.g. api.example.com)
@@ -73,7 +73,7 @@ Assessment criteria: List of core functionality vs. secondary functionality. Acc
 ## Permissions, Entitlement
 Contributors: [@dekstop](https://twitter.com/dekstop), [@marksimpkins](https://twitter.com/marksimpkins), [@digiteracy](https://twitter.com/digiteracy)
 
-### 11. Switch guarantee - A company should offer customers the right to transfer ownership of hardware, to export their data, and to migrate service providers.
+### 11. Switch guarantee - A company SHOULD offer customers the right to transfer ownership of hardware, to export their data, and to migrate service providers.
 
 Assessment criteria: Your website publishes a form where customers can request a change of ownership (change of user associated with the hardware), data export and service provider change.
 Transparency Contributors: Pilgrim Beart
@@ -133,11 +133,11 @@ User-land back-end service requirements (web or mobile apps - hosted):
 Assessment criteria: The company’s sign in process encourages its customers to choose passwords which include alphanumeric characters, special symbols, and are of significant permitted length. These passports should be validated server side. Two factor authentication should be included & support for tokenized 2FA e.g. google authenticator.
 Device Specific Requirements:
 
-### 19. A company’s product MUST be compliant with the IoTSF Security Compliance Framework
+### 19. The company’s product MUST be compliant with the IoTSF Security Compliance Framework
 
 Assessment criteria: Relevant compliance class number is published on packaging and online presence of the company. 
 
-### 20. A company’s product MUST use cryptographic schemes
+### 20. The company’s product MUST use cryptographic schemes
 
 Assessment criteria:
 The product will be tested to make sure it complies with 
@@ -148,7 +148,7 @@ RSA based with key strength of 2048 (ideally 4096) bits
 E.g. NaCl for public/private keys
 Use demonstrably cryptographically secure TRNG’s/PRNG’s
 
-### 21. A company’s firmware MUST be compliant with industry security standards.
+### 21. The company’s firmware MUST be compliant with industry security standards.
 
 Assessment criteria:
 	A product will be tested to see if its firmware is compliant with
@@ -167,16 +167,16 @@ No unnecessary services (e.g. FTP, TFTP, SMB, etc.)
 Documented moves to detect and block basic brute force attacks (e.g. password bruteforcing, WPS Pixie Dust, service bruteforcing, etc.)
 Remove Debug/Development headers from PCB (JTAG/UART/etc.)
 
-### 22. A company MUST clearly communicate with a customer in the event of a change in firmware
+### 22. The company MUST clearly communicate with a customer in the event of a change in firmware
 
 Assessment criteria: 
 An automated message should be generated or an alert to remind customers how to implement a change in firmware.
 
-### 23. A company MUST clearly communicate with a customer in the event of opting out of Automated Patching 
+### 23. The company MUST clearly communicate with a customer in the event of opting out of Automated Patching 
 
 Assessment criteria: A clear and accessible message should be sent to a customer explaining the implications of doing this in clear language. 
 
-### 24. A company MUST have clear admin user management policies. 
+### 24. The company MUST have clear admin user management policies. 
 
 Assessment criteria:
 The product will be tested to make sure it is compliant with
@@ -186,11 +186,11 @@ Where this is not possible, the admin/root password is to be changed on device f
 Specific account that hidden backdoor accounts are not to be included on production releases
 Limited number of large-scope administration accounts (such as Domain/Enterprise admin accounts)
 
-### 25. A company MUST offer the ability for a customer to do a factory reset on its product. 
+### 25. The company MUST offer the ability for a customer to do a factory reset on its product. 
 
 Assessment criteria: ?
 
-### 26. A company MUST take every precaution to protect its customers from the product being exposed to local / adjacent subnet attacks or any other attack. 
+### 26. The company MUST take every precaution to protect its customers from the product being exposed to local / adjacent subnet attacks or any other attack. 
 
 Assessment criteria: 
 The product will be tested for the following:
