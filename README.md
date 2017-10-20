@@ -93,7 +93,8 @@ Assessement criteria: Include on product or packaging. Use our labelling system.
 ### If a company wants to change the above, it MUST first ask permission from the customer (not just notify, or silently change terms).
 
 Assessment criteria: Terms & conditions changes are communicated to customers and their permission is sought explicitly.
-Security
+
+## Security
 Contributors: Mark Carney @LargeCardinal, Graham Markall @gmarkall, Jan-Peter Kleinhans
 
 ### The company MUST provide minimum cryptographic security on its servers & secure configuration
