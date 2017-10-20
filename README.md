@@ -60,7 +60,7 @@ Assessment criteria: Files are accessible on inspection.These may include but no
 Assessment criteria: Files are accessible on inspection. We recommend using MIT License or Apache 2 or AGPLv3 licenses for the source code or at least a license compliant with the Open Source Definition (https://opensource.org/docs/osd).
 
 ## Data Governance
-Contributors: Dr. Alison Powell, [@marksimpkins](https://twitter.com/marksimpkins), Selena Nemorin [@digiteracy](https://twitter.com/digiteracy)
+Contributors: Dr. Alison Powell, [@marksimpkins](https://twitter.com/marksimpkins), [@digiteracy](https://twitter.com/digiteracy)
 
 ### The company SHOULD make it visible to its customers what data and channels of communication the device / service uses.
 
