@@ -1,5 +1,5 @@
 # IoT Mark Principles
-(Manually synced mirror of GDoc)
+(Manually synced mirror of GDoc; to comment, [file an issue](https://github.com/openiotmark/iotmark-principles/issues))
  
 Open IoT Certification Mark Principles – October 18th 2017
 
