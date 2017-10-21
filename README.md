@@ -101,8 +101,7 @@ The company’s customers should be protected and the security of their products
 
 Backend Service Systems:
 
-Assessment criteria: 
-	The product will be tested to check the following:
+Assessment criteria: The product will be tested to check the following:
 * FDE 
 * TLSv1.2 on all web-based endpoints
 * Secure hashing
@@ -113,8 +112,7 @@ Assessment criteria:
 
 ### 16. The company’s backend service systems  MUST implement additional secure setup options (aka Defence In Depth) 
 
-Assessment criteria: 
-The product will be tested to check the following: 
+Assessment criteria: The product will be tested to check the following: 
 * Minimal compliance with OWASP Top 10 (2017) and SANS Top 25 which includes:
     * No SQLi - adequate protections/query parameterisation/filtering present
     * Good protection against XSS - adequate filtering present
@@ -127,8 +125,7 @@ The product will be tested to check the following:
 
 ### 17. The company SHOULD implement reliable and appropriate patching procedures which should be evidenced. Patches should be regularly applied to any system that is internet facing as a priority, within a reasonable time frame from patch release. Critical patches, where applicable, should be given priority.
 
-Assessment criteria:
-The product will be tested to check the following:
+Assessment criteria: The product will be tested to check the following:
 User-land back-end service requirements (web or mobile apps - hosted):
 
 ### 18. The company MUST enforce a strong user identity policy
@@ -142,8 +139,7 @@ Assessment criteria: Relevant compliance class number is published on packaging 
 
 ### 20. The company’s product MUST use cryptographic schemes
 
-Assessment criteria:
-The product will be tested to make sure it complies with 
+Assessment criteria: The product will be tested to make sure it complies with 
 * Per Device Private Keys
 * Use known-good cryptographic schemes such as:
     * AES256-CBC with random IV's
@@ -153,15 +149,16 @@ The product will be tested to make sure it complies with
 
 ### 21. The company’s firmware MUST be compliant with industry security standards.
 
-Assessment criteria:
-A product will be tested to see if its firmware is compliant with
+Assessment criteria: A product will be tested to see if its firmware is compliant with
 * Usage of latest available SDK’s
 * Monitor and patch with updates for core backend libraries (e.g. wifi libraries, web servers, XML parsers, etc. etc.), not just SDK updates.
 * A known-good failsafe firmware should be available
+
 Fair use of Hardware Security Module
 * Use of on-chip cryptographic accelerators where available
 * Use of secure storage options where available
 * Usage of CRP where available
+
 Secure Setup
 * Only necessary ports open/available
 * All services that handle sensitive data have adequate authentication
@@ -182,11 +179,11 @@ Assessment criteria: A clear and accessible message should be sent to a customer
 
 Assessment criteria:
 The product will be tested to make sure it is compliant with
-Ability and requirement to change Administrator/root access passwords
-Device-unique passwords should be loaded into each device at production
-Where this is not possible, the admin/root password is to be changed on device first setup or admin first login, whichever happens first
-Specific account that hidden backdoor accounts are not to be included on production releases
-Limited number of large-scope administration accounts (such as Domain/Enterprise admin accounts)
+* Ability and requirement to change Administrator/root access passwords
+* Device-unique passwords should be loaded into each device at production
+    * Where this is not possible, the admin/root password is to be changed on device first setup or admin first login, whichever happens first
+* Specific account that hidden backdoor accounts are not to be included on production releases
+* Limited number of large-scope administration accounts (such as Domain/Enterprise admin accounts)
 
 ### 25. The company MUST offer the ability for a customer to do a factory reset on its product. 
 
@@ -196,23 +193,25 @@ Assessment criteria: ?
 
 Assessment criteria: 
 The product will be tested for the following:
-Restricted physical access to production systems
-A 'first-pentest' with a follow-up action plan for resolving the results of the pentest.
-Ability to lock devices to hardware security tokens e.g. yubikeys (This can act in place of per-device passwords/private keys)
-Strong physical security
-Ability to filter by source IP on device
-A working Disaster Recovery plan, Vulnerability Disclosure plan, and Breach Response Plan
+* Restricted physical access to production systems
+* A 'first-pentest' with a follow-up action plan for resolving the results of the pentest.
+* Ability to lock devices to hardware security tokens e.g. yubikeys (This can act in place of per-device passwords/private keys)
+* Strong physical security
+* Ability to filter by source IP on device
+* A working Disaster Recovery plan, Vulnerability Disclosure plan, and Breach Response Plan
 (Breach Response should have relevant technical, business, and legal contacts within it
-You should know if/when you were hacked
-You should know what to do
-Disclosure Response should exist, and have relevant technical, business, and legal contacts, as well as a workflow for how to raise tickets, assess severity, etc.
-Disaster Recovery should be tested regularly e.g. to ensure backup restoration works)
+* You should know if/when you were hacked
+    * You should know what to do
+    * Disclosure Response should exist, and have relevant technical, business, and legal contacts, as well as a workflow for how to raise tickets, assess severity, etc.
+    * Disaster Recovery should be tested regularly e.g. to ensure backup restoration works)
 A planned introduction of monitoring software with alerts generated for the right people
 
 ## Lifecycle, provenance, sustainability & futureproofing
 Contributors: [@aallan](https://twitter.com/aallan), [@mchrisadams](https://twitter.com/mchrisadams), [@amcewen](https://twitter.com/amcewen), [@driesderoeck](https://twitter.com/driesderoeck), [@mbconsultinguk](https://twitter.com/mbconsultinguk), [@joannasaurusrex](https://twitter.com/joannasaurusrex), [@agentGav](https://twitter.com/agentGav)
 
-### 27. The company MUST be clear about the expected lifetime of the product and the expected support the customer should expect. 
+Assessment criteria: ?
+
+### 27. The company MUST be clear about the expected lifetime of the product and the expected support the customer should expect.
 
 Assessment criteria:
 Include on the packaging of the product and on the online presence of the company a clear statement of intended lifetime and support. Post-lifetime support should be clearly explained ( replacement part vendor list. An End of Life T&C’s and End of Life actions should be well defined - including in case of bankruptcy, takeover, etc.Should include ‘what happens to my data?’ and ‘what happens to my device(s)?’
