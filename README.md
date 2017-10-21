@@ -76,7 +76,9 @@ Contributors: [@dekstop](https://twitter.com/dekstop), [@marksimpkins](https://t
 ### 11. Switch guarantee - A company SHOULD offer customers the right to transfer ownership of hardware, to export their data, and to migrate service providers.
 
 Assessment criteria: Your website publishes a form where customers can request a change of ownership (change of user associated with the hardware), data export and service provider change.
-Transparency Contributors: [@pilgrimbeart](https://twitter.com/pilgrimbeart)
+
+## Transparency
+Contributors: [@pilgrimbeart](https://twitter.com/pilgrimbeart)
 
 ### 12. A company MUST be explicit to a customer as to whether there are secondary legal obligations, e.g. if they’re buying car insurance via a monitoring device, they might have an obligation to provide valid data.
 
