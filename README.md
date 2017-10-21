@@ -45,7 +45,7 @@ Assessment criteria: The company provides URL(s) of publicly accessible document
 - Data format (e.g. binary encoding)
 
 ## Openness
-Contributors: [@tamberg](https://twitter.com/tamberg), ...
+Contributors: [@tamberg](https://twitter.com/tamberg)
 
 ### 6. The company SHOULD publish the device source code under an open source license.
 	
