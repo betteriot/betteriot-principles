@@ -73,14 +73,14 @@ Assessment criteria: List of core functionality vs. secondary functionality. Acc
 ## Permissions, Entitlement
 Contributors: [@dekstop](https://twitter.com/dekstop), [@marksimpkins](https://twitter.com/marksimpkins), [@digiteracy](https://twitter.com/digiteracy)
 
-### 11. Switch guarantee - A company SHOULD offer customers the right to transfer ownership of hardware, to export their data, and to migrate service providers.
+### 11. The company SHOULD offer customers the right to transfer ownership of hardware, to export their data, and to migrate service providers (switch guarantee).
 
 Assessment criteria: Your website publishes a form where customers can request a change of ownership (change of user associated with the hardware), data export and service provider change.
 
 ## Transparency
 Contributors: [@pilgrimbeart](https://twitter.com/pilgrimbeart)
 
-### 12. A company MUST be explicit to a customer as to whether there are secondary legal obligations, e.g. if they’re buying car insurance via a monitoring device, they might have an obligation to provide valid data.
+### 12. The company MUST be explicit to a customer as to whether there are secondary legal obligations, e.g. if they’re buying car insurance via a monitoring device, they might have an obligation to provide valid data.
 
 Assessement criteria: Include on product or packaging. Use our labelling system.
 
@@ -88,7 +88,7 @@ Assessement criteria: Include on product or packaging. Use our labelling system.
 
 Assessement criteria: Include on product or packaging. Use our labelling system.
 
-### 14. If a company wants to change the above, it MUST first ask permission from the customer (not just notify, or silently change terms).
+### 14. If the company wants to change the above, it MUST first ask permission from the customer (not just notify, or silently change terms).
 
 Assessment criteria: Terms & conditions changes are communicated to customers and their permission is sought explicitly.
 
@@ -96,7 +96,8 @@ Assessment criteria: Terms & conditions changes are communicated to customers an
 Contributors: [@LargeCardinal](https://twitter.com/LargeCardinal), [@gmarkall](https://twitter.com/gmarkall), Jan-Peter Kleinhans
 
 ### 15. The company MUST provide minimum cryptographic security on its servers & secure configuration
-A company’s customers should be protected and the security of their products should be a priority in the development cycle. 
+
+The company’s customers should be protected and the security of their products should be a priority in the development cycle. 
 
 Backend Service Systems:
 
