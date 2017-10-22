@@ -3,7 +3,7 @@
  
 Open IoT Certification Mark Principles – October 18th 2017
 
-Draft edited by [@iotwatch](https://twitter.com/iotwatch)
+Draft edited by Alexandra Deschamps-Sonsino ([@iotwatch](https://twitter.com/iotwatch))
 
 ## Privacy
 Contributors: Mark Simpkins ([@marksimpkins](https://twitter.com/marksimpkins))
