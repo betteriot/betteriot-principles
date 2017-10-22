@@ -6,7 +6,7 @@ Open IoT Certification Mark Principles – October 18th 2017
 Draft edited by [@iotwatch](https://twitter.com/iotwatch)
 
 ## Privacy
-Contributors: [@marksimpkins](https://twitter.com/marksimpkins) 
+Contributors: Mark Simpkins ([@marksimpkins](https://twitter.com/marksimpkins))
 
 ### 1. The product or service the company supplies MUST be General Data Protection Regulation (GDPR) compliant. 
 
@@ -21,7 +21,7 @@ Assessment criteria: GDPR policy is published on the company website / a simple 
 Assessment criteria: ICA compliant (registration number)
 
 ## Interoperability
-Contributors: [@andysc](https://twitter.com/andysc), [@borisadryan](https://twitter.com/borisadryan), [@nullr0ute](https://twitter.com/nullr0ute), [@bobvanluijt](https://twitter.com/bobvanluijt), [@tamberg](https://twitter.com/tamberg)
+Contributors: Andy Stanford-Clark ([@andysc](https://twitter.com/andysc)), Boris Adryan ([@borisadryan](https://twitter.com/borisadryan)), Peter Robinson ([@nullr0ute](https://twitter.com/nullr0ute)), Bob van Luijt ([@bobvanluijt](https://twitter.com/bobvanluijt)), Thomas Amberg ([@tamberg](https://twitter.com/tamberg))
 
 ### 3. The company MUST allow third parties to connect devices, apps and services to its backend API. 
 
@@ -45,7 +45,7 @@ Assessment criteria: The company provides URL(s) of publicly accessible document
 - Data format (e.g. binary encoding)
 
 ## Openness
-Contributors: [@tamberg](https://twitter.com/tamberg)
+Contributors: Thomas Amberg ([@tamberg](https://twitter.com/tamberg))
 
 ### 6. The company SHOULD publish the device source code under an open source license.
 	
@@ -56,7 +56,7 @@ Assessment criteria: Files are accessible on inspection. We recommend using MIT 
 Assessment criteria: Files are accessible on inspection.These may include but not limited to schema files, PCB layouts, and any other materials that would support the recreation of the product by the end user. We recommend using a license compliant with the Open Source Hardware Definition (https://www.oshwa.org/definition/). 
 
 ## Data Governance
-Contributors: Dr. Alison Powell, [@marksimpkins](https://twitter.com/marksimpkins), [@digiteracy](https://twitter.com/digiteracy)
+Contributors: Dr. Alison Powell, Mark Simpkins ([@marksimpkins](https://twitter.com/marksimpkins)), Selena Nemorin ([@digiteracy](https://twitter.com/digiteracy))
 
 ### 8. The company SHOULD make it visible to its customers what data and channels of communication the device / service uses.
 
@@ -71,14 +71,14 @@ Assessment criteria: The dependancy label is included on product or packaging as
 Assessment criteria: List of core functionality vs. secondary functionality. Access to all commercially accessible versions of products for testing. Test the core functionality on audit.
 
 ## Permissions, Entitlement
-Contributors: [@dekstop](https://twitter.com/dekstop), [@marksimpkins](https://twitter.com/marksimpkins), [@digiteracy](https://twitter.com/digiteracy)
+Contributors: Martin Dittus ([@dekstop](https://twitter.com/dekstop)), Mark Simpkins ([@marksimpkins](https://twitter.com/marksimpkins)), Selena Nemorin ([@digiteracy](https://twitter.com/digiteracy))
 
 ### 11. The company SHOULD offer customers the right to transfer ownership of hardware, to export their data, and to migrate service providers (switch guarantee).
 
 Assessment criteria: Your website publishes a form where customers can request a change of ownership (change of user associated with the hardware), data export and service provider change.
 
 ## Transparency
-Contributors: [@pilgrimbeart](https://twitter.com/pilgrimbeart)
+Contributors: Pilgrim Beart ([@pilgrimbeart](https://twitter.com/pilgrimbeart))
 
 ### 12. The company MUST be explicit to a customer as to whether there are secondary legal obligations, e.g. if they’re buying car insurance via a monitoring device, they might have an obligation to provide valid data.
 
@@ -93,7 +93,7 @@ Assessement criteria: Include on product or packaging. Use our labelling system.
 Assessment criteria: Terms & conditions changes are communicated to customers and their permission is sought explicitly.
 
 ## Security
-Contributors: [@LargeCardinal](https://twitter.com/LargeCardinal), [@gmarkall](https://twitter.com/gmarkall), Jan-Peter Kleinhans
+Contributors: Mark Carney ([@LargeCardinal](https://twitter.com/LargeCardinal)), Graham Markall ([@gmarkall](https://twitter.com/gmarkall)), Jan-Peter Kleinhans ([@JPKleinhans](https://twitter.com/JPKleinhans))
 
 ### 15. The company MUST provide minimum cryptographic security on its servers & secure configuration
 
@@ -207,7 +207,7 @@ The product will be tested for the following:
 A planned introduction of monitoring software with alerts generated for the right people
 
 ## Lifecycle, provenance, sustainability & futureproofing
-Contributors: [@aallan](https://twitter.com/aallan), [@mchrisadams](https://twitter.com/mchrisadams), [@amcewen](https://twitter.com/amcewen), [@driesderoeck](https://twitter.com/driesderoeck), [@mbconsultinguk](https://twitter.com/mbconsultinguk), [@joannasaurusrex](https://twitter.com/joannasaurusrex), [@agentGav](https://twitter.com/agentGav)
+Contributors: Alasdair Allan ([@aallan](https://twitter.com/aallan)), Chris Adams  ([@mchrisadams](https://twitter.com/mchrisadams)), Adrian McEwen ([@amcewen](https://twitter.com/amcewen)), Dries De Roeck ([@driesderoeck](https://twitter.com/driesderoeck)), Matthew Macdonald-Wallace ([@mbconsultinguk](https://twitter.com/mbconsultinguk)), Joanna Montgomery ([@joannasaurusrex](https://twitter.com/joannasaurusrex)), Gavin Starks ([@agentGav](https://twitter.com/agentGav))
 
 Assessment criteria: ?
 
