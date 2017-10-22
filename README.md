@@ -209,8 +209,6 @@ A planned introduction of monitoring software with alerts generated for the righ
 ## Lifecycle, provenance, sustainability & futureproofing
 Contributors: Alasdair Allan ([@aallan](https://twitter.com/aallan)), Chris Adams  ([@mchrisadams](https://twitter.com/mchrisadams)), Adrian McEwen ([@amcewen](https://twitter.com/amcewen)), Dries De Roeck ([@driesderoeck](https://twitter.com/driesderoeck)), Matthew Macdonald-Wallace ([@mbconsultinguk](https://twitter.com/mbconsultinguk)), Joanna Montgomery ([@joannasaurusrex](https://twitter.com/joannasaurusrex)), Gavin Starks ([@agentGav](https://twitter.com/agentGav))
 
-Assessment criteria: ?
-
 ### 27. The company MUST be clear about the expected lifetime of the product and the expected support the customer should expect.
 
 Assessment criteria:
