@@ -3,13 +3,15 @@
  
 Open IoT Certification Mark Principles – March 9th 2018
 
-This work by iotmark.org is licensed under Creative Commons BY-SA 4.0.
+This work by [iotmark.org](http://iotmark.org/) is licensed under [Creative Commons BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 
-This is the latest version of a working document to develop a certification mark for connected products by community members worldwide. This is a work in progress and you may comment freely, join the conversation on Slack, sign up to our newsletter or give us feedback in writing (alex@iot.london) or on our monthly open calls. 
+This is the latest version of a working document to develop [a certification mark for connected products](http://iotmark.wordpress.com/) by community members worldwide. This is a work in progress and you may comment freely, join the conversation on [Slack](https://join.slack.com/iotmark/shared_invite/MjA5MjQzMTM0ODg2LTE0OTkyOTI1MDItY2JjODI3OWNmNQ), [sign up to our newsletter](http://designswarm.us4.list-manage.com/subscribe?u=2101384e03af780d68370fb40&id=f898782217) or give us feedback in writing (alex@iot.london) or on our [monthly open calls](https://calendar.google.com/calendar/ical/designswarm.com_2v6ddgu2m907s0ohe5c1upceqg%40group.calendar.google.com/public/basic.ics). 
 
 This is a set of principles that we think an organisation—a connected product manufacturer, team or founder—would use to make a good, secure, ethical, product that also takes into account the upcoming General Data Protection Regulation (GDPR) directive. But also to push beyond the GDPR and look at the entire life cycle of a smart device. From manufacture, to final disposal.
 
-The terminology in this document is a bit technical, bear with us. We use MUST, SHOULD, and MAY because of a technical writing standard called RFC 2119. 
+The terminology in this document is a bit technical, bear with us. We use MUST, SHOULD, and MAY because of a technical writing standard called [RFC 2119](https://www.ietf.org/rfc/rfc2119.txt). 
+
+We use this [reference model](http://tamberg.org/iotmark/2018/ConnectedProductReferenceModel.pdf) to define the terms device, gateway and backend.
 
 ## Privacy
 
@@ -27,7 +29,7 @@ The terminology in this document is a bit technical, bear with us. We use MUST, 
 
 ## Interoperability
 
-### 4. The organisation MUST allow third parties to connect clients to its backend.
+### 4. The organisation SHOULD allow third parties to connect clients to its backend.
 
     Assessment criteria: TODO
 
