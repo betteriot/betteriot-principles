@@ -127,15 +127,15 @@ We use this [reference model](http://tamberg.org/iotmark/2018/ConnectedProductRe
 
     Assessment criteria: 
     The product will be tested to check the following: 
-    Minimal compliance with OWASP Top 10 (2017) and SANS Top 25 which includes:
-    No SQLi - adequate protections/query parameterisation/filtering present
-    Good protection against XSS - adequate filtering present
-    Strong session management
-    Good authentication management
-    Random CSRF tokens that are strongly enforced based on last-issued token
-    Web Server users should not be running as root/admin
-    Principle of Least Privilege: API service users should have limited access 
-    Managed access to data: Do DB users need to write to a DB they only search in? Do DB users have access to DB’s they shouldn’t do?
+    - Minimal compliance with OWASP Top 10 (2017) and SANS Top 25 which includes:
+        - No SQLi - adequate protections/query parameterisation/filtering present
+        - Good protection against XSS - adequate filtering present
+        - Strong session management
+        - Good authentication management
+        - Random CSRF tokens that are strongly enforced based on last-issued token
+    - Web Server users should not be running as root/admin
+    - Principle of Least Privilege: API service users should have limited access 
+    - Managed access to data: Do DB users need to write to a DB they only search in? Do DB users have access to DB’s they shouldn’t do?
 
 ### 22. The organisation SHOULD implement reliable and appropriate backend patching procedures which should be evidenced. 
 
@@ -149,45 +149,46 @@ We use this [reference model](http://tamberg.org/iotmark/2018/ConnectedProductRe
 
     Assessment criteria:
     The product will be tested to make sure it complies with 
-    Per Device Private Keys
-    Use known-good cryptographic schemes such as:
-    AES256-CBC with random IV's
-    RSA based with key strength of 2048 (ideally 4096) bits
-    E.g. NaCl for public/private keys
-    Use demonstrably cryptographically secure TRNG’s/PRNG’s
+    - Per Device Private Keys
+    - Use known-good cryptographic schemes such as:
+        - AES256-CBC with random IV's
+        - RSA based with key strength of 2048 (ideally 4096) bits
+        - E.g. NaCl for public/private keys
+    - Use demonstrably cryptographically secure TRNG’s/PRNG’s
 
 ### 25. The device firmware MUST be compliant with industry security standards.
 
     Assessment criteria:
     A product will be tested to see if its firmware is compliant with
-    Usage of latest available SDK’s
-    Monitor and patch with updates for core backend libraries (e.g. wifi libraries, web servers, XML parsers, etc. etc.), not just SDK updates.
-    A known-good failsafe firmware should be available
-    Fair use of Hardware Security Module
-    Use of on-chip cryptographic accelerators where available
-    Use of secure storage options where available
-    Usage of CRP where available
-    Secure Setup
-    Only necessary ports open/available
-    All services that handle sensitive data have adequate authentication
-    No debug ports are available (ssh/telnet/etc.)
-    No unnecessary services (e.g. FTP, TFTP, SMB, etc.)
-    Documented moves to detect and block basic brute force attacks (e.g. password bruteforcing, WPS Pixie Dust, service bruteforcing, etc.)
-    Remove Debug/Development headers from PCB (JTAG/UART/etc.)
-    The organisation’s product must be compliant with the IoTSF Security Compliance Framework
-    Relevant compliance class number is published on packaging and online presence of the organisation.
-    The organisation must take every precaution to protect usersits customers from the product being exposed to local / adjacent subnet attacks or any other attack. 
+    - Usage of latest available SDK’s
+    - Monitor and patch with updates for core backend libraries (e.g. wifi libraries, web servers, XML parsers, etc. etc.), not just SDK updates.
+    - A known-good failsafe firmware should be available
+    - Fair use of Hardware Security Module
+        - Use of on-chip cryptographic accelerators where available
+        - Use of secure storage options where available
+        - Usage of CRP where available
+    - Secure Setup
+        - Only necessary ports open/available
+        - All services that handle sensitive data have adequate authentication
+        - No debug ports are available (ssh/telnet/etc.)
+        - No unnecessary services (e.g. FTP, TFTP, SMB, etc.)
+        - Documented moves to detect and block basic brute force attacks (e.g. password bruteforcing, WPS Pixie Dust, service bruteforcing, etc.)
+        - Remove Debug/Development headers from PCB (JTAG/UART/etc.)
+        - The organisation’s product must be compliant with the IoTSF Security Compliance Framework
+        - Relevant compliance class number is published on packaging and online presence of the organisation.
+        - The organisation must take every precaution to protect usersits customers from the product being exposed to local / adjacent subnet attacks or any other attack. 
 
 ### 26. The organisation MUST have clear admin user management policies.
 
     Assessment criteria:
     The product will be tested to make sure it is compliant with
-    Ability and requirement to change Administrator/root access passwords
-    Device-unique passwords should be loaded into each device at production
-    Where this is not possible, the admin/root password is to be changed on device first setup or admin first login, whichever happens first
-    Specific account that hidden backdoor accounts are not to be included on production releases
-    Limited number of large-scope administration accounts (such as Domain/Enterprise admin accounts)
-    Lifecycle
+    - Ability and requirement to change Administrator/root access passwords
+    - Device-unique passwords should be loaded into each device at production
+        - Where this is not possible, the admin/root password is to be changed on device first setup or admin first login, whichever happens first
+    - Specific account that hidden backdoor accounts are not to be included on production releases
+    - Limited number of large-scope administration accounts (such as Domain/Enterprise admin accounts)
+    
+## Lifecycle
 
 ### 27. The organisation MUST offer the ability for a user to factory reset the device. 
 
