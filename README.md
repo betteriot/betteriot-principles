@@ -39,16 +39,14 @@ The terminology in this document is a bit technical, bear with us. We use MUST, 
     - Protocol (e.g. HTTP, MQTT, ...)
     - Data format (e.g. JSON, XML; clearly defined data types)
     - Data model / information model (e.g. service topics, how to measure temperature)
-
-### 6. The organisation provides a way to apply for access rights (e.g. by issuing an API key)
-
+    The organisation provides a way to apply for access rights (e.g. by issuing an API key)
     An access token or something like this might be OK.
 
-### 7. The organisation SHOULD grant third parties the same functional scope on the backend as its own clients.
+### 6. The organisation SHOULD grant third parties the same functional scope on the backend as its own clients.
 
     Assessment criteria: The assessor collects complaints (e.g. including screenshots or other "proof") filed by 3rd parties.
 
-### 8. The organisation SHOULD allow third parties to communicate directly with its devices without going through the backend.
+### 7. The organisation SHOULD allow third parties to communicate directly with its devices without going through the backend.
 
     Assessment criteria: The organisation provides URL(s) of publicly accessible documentation for all of the following aspects of the device "API"
     - Device "API" (e.g. Bluetooth Profile)
@@ -57,62 +55,64 @@ The terminology in this document is a bit technical, bear with us. We use MUST, 
 
 ## Openness
 
-### 1. The organisation MAY publish the device source code under an open source license.
+### 8. The organisation MAY publish the device source code under an open source license.
 
     Assessment criteria: Files are accessible on inspection. We recommend using MIT License or Apache 2 or GPLv3 licenses for the source code or at least a license compliant with the Open Source Definition (https://opensource.org/docs/osd).
 
-### 1. The organisation MAY publish the device hardware designs under an open hardware license.
+### 9. The organisation MAY publish the device hardware designs under an open hardware license.
 
     Assessment criteria: Files are accessible on inspection.These may include but not limited to schema files, PCB layouts, and any other materials that would support the recreation of the product by the end user. We recommend using a license compliant with the Open Source Hardware Definition (https://www.oshwa.org/definition/). 
 
-### 1. The organisation MAY publish the backend source code under an open source license.
+### 10. The organisation MAY publish the backend source code under an open source license.
 
     Assessment criteria: Files are accessible on inspection. We recommend using MIT License or Apache 2 or AGPLv3 licenses for the source code or at least a license compliant with the Open Source Definition (https://opensource.org/docs/osd).
-Data Governance
 
-### 1. The organisation SHOULD make it possible for customers to turn off the connection to the backend, this might mean that functionality of the device is reduced.
+## Data Governance
+
+### 11. The organisation SHOULD make it possible for customers to turn off the connection to the backend, this might mean that functionality of the device is reduced.
 
     Assessment criteria: The dependency label is included on product or packaging as well as the organisation’s online presence. Use our suggested labelling system.
 
-### 1. The organisation SHOULD NOT degrade or change the current core functionality of the device over the product lifetime.
+### 12. The organisation SHOULD NOT degrade or change the current core functionality of the device over the product lifetime.
 
     Assessment criteria: List of core functionality vs. secondary functionality. Access to all commercially accessible versions of products for testing. Test the core functionality on audit.
 
 ## Permissions & Ownership
 
-### 1. The organisation MUST give users the ability to transfer ownership of the device. 
+### 13. The organisation MUST give users the ability to transfer ownership of the device. 
 
     Assessment: TODO
 
-### 1. When ownership of the device is transferred, the new user MUST NOT have access to previous user's data.
+### 14. When ownership of the device is transferred, the new user MUST NOT have access to previous user's data.
 
     Assessment: TODO
 
-### 1. The organisation SHOULD offer users the ability to export their data. 
+### 15. The organisation SHOULD offer users the ability to export their data. 
 
     Assessment: TODO
 
 ## Transparency 
 
-### 1. The organisation MUST make explicit to the user what the implications of substantially changing usage of the device are. 
+### 16. The organisation MUST make explicit to the user what the implications of substantially changing usage of the device are. 
 
     Assessment criteria: Include on product or packaging. Use our labelling system.
 
-### 1. The organisation MUST be explicit as to the expected duration of terms of service
+### 17. The organisation MUST be explicit as to the expected duration of terms of service
 
     Assessment criteria: Include on product or packaging. Use our labelling system.
 
-### 1. If the organisation wants to change the length of the term of service, it MUST first ask permission from the customer. 
+### 18. If the organisation wants to change the length of the term of service, it MUST first ask permission from the customer. 
 
     Assessment criteria: Terms & conditions changes are communicated to customers and their permission is sought explicitly.
 
-### 1. The organisation MUST inform the user about firmware upgrades.
+### 19. The organisation MUST inform the user about firmware upgrades.
 
     Assessment criteria: 
 An automated message should be generated or an alert to remind customers how to implement a change in firmware.
 Security
 
-### 1. The organisation MUST provide at least minimum cryptographic security on its backend & secure configuration
+### 20. The organisation MUST provide at least minimum cryptographic security on its backend & secure configuration
+
     Assessment criteria: 
     The product will be tested to check the following:
     - FDE 
@@ -123,7 +123,7 @@ Security
     - Only necessary ports are exposed to the internet (e.g. no access to debug ports like SSH/Telnet/etc., hadoop ports not open, SMB ports not open, NoSQL/SQL server ports not open, etc. etc.)
     - Relevant Cookie flags and security headers (web) present where applicable (see OWASP guidelines)
 
-### 1. The organisation’s backend MAY implement additional secure setup options. 
+### 21. The organisation’s backend MAY implement additional secure setup options. 
 
     Assessment criteria: 
     The product will be tested to check the following: 
@@ -137,15 +137,15 @@ Security
     Principle of Least Privilege: API service users should have limited access 
     Managed access to data: Do DB users need to write to a DB they only search in? Do DB users have access to DB’s they shouldn’t do?
 
-### 1. The organisation SHOULD implement reliable and appropriate backend patching procedures which should be evidenced. 
+### 22. The organisation SHOULD implement reliable and appropriate backend patching procedures which should be evidenced. 
 
     Assessment criteria: Patches should be regularly applied to any system that is internet facing as a priority, within a reasonable time frame from patch release. Critical patches, where applicable, should be given priority.
 
-### 1. The organisation MUST enforce a strong user identity policy.
+### 23. The organisation MUST enforce a strong user identity policy.
 
     Assessment criteria: The organisation’s sign in process encourages its customers to choose passwords which include alphanumeric characters, special symbols, and are of significant permitted length. These passports should be validated server side. Two factor authentication should be included & support for tokenized 2FA e.g. google authenticator.
 
-### 1. The device SHOULD use strong cryptographic schemes.
+### 24. The device SHOULD use strong cryptographic schemes.
 
     Assessment criteria:
     The product will be tested to make sure it complies with 
@@ -156,7 +156,7 @@ Security
     E.g. NaCl for public/private keys
     Use demonstrably cryptographically secure TRNG’s/PRNG’s
 
-### 1. The device firmware MUST be compliant with industry security standards.
+### 25. The device firmware MUST be compliant with industry security standards.
 
     Assessment criteria:
     A product will be tested to see if its firmware is compliant with
@@ -175,12 +175,12 @@ Security
     Documented moves to detect and block basic brute force attacks (e.g. password bruteforcing, WPS Pixie Dust, service bruteforcing, etc.)
     Remove Debug/Development headers from PCB (JTAG/UART/etc.)
 
-### 25. The organisation’s product must be compliant with the IoTSF Security Compliance Framework
+### 26. The organisation’s product must be compliant with the IoTSF Security Compliance Framework
 
     Assessment criteria: Relevant compliance class number is published on packaging and online presence of the organisation.
     The organisation must take every precaution to protect usersits customers from the product being exposed to local / adjacent subnet attacks or any other attack. 
 
-### 26. The organisation MUST have clear admin user management policies.
+### 27. The organisation MUST have clear admin user management policies.
 
     Assessment criteria:
     The product will be tested to make sure it is compliant with
