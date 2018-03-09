@@ -29,7 +29,7 @@ The terminology in this document is a bit technical, bear with us. We use MUST, 
 
 ### 4. The organisation MUST allow third parties to connect clients to its backend.
 
-    Assessment: TODO
+    Assessment criteria: TODO
 
 ### 5. The organisation MAY allow third parties to connect devices to its backend. 
 
@@ -81,15 +81,15 @@ The terminology in this document is a bit technical, bear with us. We use MUST, 
 
 ### 13. The organisation MUST give users the ability to transfer ownership of the device. 
 
-    Assessment: TODO
+    Assessment criteria: TODO
 
 ### 14. When ownership of the device is transferred, the new user MUST NOT have access to previous user's data.
 
-    Assessment: TODO
+    Assessment criteria: TODO
 
 ### 15. The organisation SHOULD offer users the ability to export their data. 
 
-    Assessment: TODO
+    Assessment criteria: TODO
 
 ## Transparency 
 
@@ -107,9 +107,9 @@ The terminology in this document is a bit technical, bear with us. We use MUST, 
 
 ### 19. The organisation MUST inform the user about firmware upgrades.
 
-    Assessment criteria: 
-An automated message should be generated or an alert to remind customers how to implement a change in firmware.
-Security
+    Assessment criteria: An automated message should be generated or an alert to remind customers how to implement a change in firmware.
+
+## Security
 
 ### 20. The organisation MUST provide at least minimum cryptographic security on its backend & secure configuration
 
