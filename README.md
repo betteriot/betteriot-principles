@@ -174,13 +174,11 @@ Security
     No unnecessary services (e.g. FTP, TFTP, SMB, etc.)
     Documented moves to detect and block basic brute force attacks (e.g. password bruteforcing, WPS Pixie Dust, service bruteforcing, etc.)
     Remove Debug/Development headers from PCB (JTAG/UART/etc.)
-
-### 26. The organisation’s product must be compliant with the IoTSF Security Compliance Framework
-
-    Assessment criteria: Relevant compliance class number is published on packaging and online presence of the organisation.
+    The organisation’s product must be compliant with the IoTSF Security Compliance Framework
+    Relevant compliance class number is published on packaging and online presence of the organisation.
     The organisation must take every precaution to protect usersits customers from the product being exposed to local / adjacent subnet attacks or any other attack. 
 
-### 27. The organisation MUST have clear admin user management policies.
+### 26. The organisation MUST have clear admin user management policies.
 
     Assessment criteria:
     The product will be tested to make sure it is compliant with
