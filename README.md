@@ -118,10 +118,10 @@ We use this [reference model](http://tamberg.org/iotmark/2018/ConnectedProductRe
     - FDE 
     - TLSv1.2 on all web-based endpoints
     - Secure hashing
-    - E.g. Salted bcrypt/scrypt
+        - E.g. Salted bcrypt/scrypt
     - Secure PII storage
-    - Only necessary ports are exposed to the internet (e.g. no access to debug ports like SSH/Telnet/etc., hadoop ports not open, SMB ports not open, NoSQL/SQL server ports not open, etc. etc.)
-    - Relevant Cookie flags and security headers (web) present where applicable (see OWASP guidelines)
+        - Only necessary ports are exposed to the internet (e.g. no access to debug ports like SSH/Telnet/etc., hadoop ports not open, SMB ports not open, NoSQL/SQL server ports not open, etc. etc.)
+        - Relevant Cookie flags and security headers (web) present where applicable (see OWASP guidelines)
 
 ### 21. The organisation’s backend MAY implement additional secure setup options. 
 
