@@ -5,7 +5,7 @@ Open IoT Certification Mark Principles – June 13th 2018
 This work by [iotmark.org](http://iotmark.org/) is licensed under [Creative Commons BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
 
 ## Introduction
-This is the latest version of a working document to develop [a certification mark for connected products](http://iotmark.wordpress.com/) by community members worldwide. This is a work in progress and you may [comment](https://github.com/openiotmark/iotmark-principles/issues) freely, join the conversation on [Slack](https://join.slack.com/iotmark/shared_invite/MjA5MjQzMTM0ODg2LTE0OTkyOTI1MDItY2JjODI3OWNmNQ), [sign up to our newsletter](http://designswarm.us4.list-manage.com/subscribe?u=2101384e03af780d68370fb40&id=f898782217) or give us feedback in writing (alex@iot.london) or on our [monthly open calls](https://calendar.google.com/calendar/ical/designswarm.com_2v6ddgu2m907s0ohe5c1upceqg%40group.calendar.google.com/public/basic.ics).
+This is the latest version of a working document to develop [a certification mark for connected products](http://iotmark.wordpress.com/) by IoT community members worldwide. This is a work in progress and you may [comment](https://github.com/openiotmark/iotmark-principles/issues) freely, join the conversation on [Slack](https://join.slack.com/iotmark/shared_invite/MjA5MjQzMTM0ODg2LTE0OTkyOTI1MDItY2JjODI3OWNmNQ), [sign up to our newsletter](http://designswarm.us4.list-manage.com/subscribe?u=2101384e03af780d68370fb40&id=f898782217) or give us feedback in writing (alex@iot.london) or on our [monthly open calls](https://calendar.google.com/calendar/ical/designswarm.com_2v6ddgu2m907s0ohe5c1upceqg%40group.calendar.google.com/public/basic.ics).
 
 This is a set of principles that we think a vendor — a connected product manufacturer, team or founder — would use to make a good, secure, ethical, product that also takes into account the General Data Protection Regulation (GDPR). But also to push beyond the GDPR and look at the entire life cycle of a smart device. From manufacture, to final disposal.
 
@@ -40,6 +40,19 @@ The _user_ buys, owns or uses the connected product. The term is quite broad, bu
 
 ### Third party
 A _third party_ is anybody else than the vendor or the user.
+
+## Principles
+- [Privacy](#Privacy)
+- Interoperability
+- Openness
+- Data Governance
+- Permissions & Ownership
+- Transparency
+- Security
+- Lifecycle
+
+## Assessment
+The assessment criteria below are intended to be "self-assessed but verifiable" and allow "verification through documentation" as specified in [this presentation](https://www.slideshare.net/peterbihr/towards-a-trustmark-for-iot-30-may-2018) by Peter Bihr / ThingsCon (CC BY-SA 4.0).
 
 ## Privacy
 
