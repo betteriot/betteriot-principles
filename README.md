@@ -7,13 +7,12 @@ This work by [iotmark.org](http://iotmark.org/) is licensed under [Creative Comm
 ## Introduction
 This is the latest version of a working document to develop [a certification mark for connected products](http://iotmark.wordpress.com/) by community members worldwide. This is a work in progress and you may [comment](https://github.com/openiotmark/iotmark-principles/issues) freely, join the conversation on [Slack](https://join.slack.com/iotmark/shared_invite/MjA5MjQzMTM0ODg2LTE0OTkyOTI1MDItY2JjODI3OWNmNQ), [sign up to our newsletter](http://designswarm.us4.list-manage.com/subscribe?u=2101384e03af780d68370fb40&id=f898782217) or give us feedback in writing (alex@iot.london) or on our [monthly open calls](https://calendar.google.com/calendar/ical/designswarm.com_2v6ddgu2m907s0ohe5c1upceqg%40group.calendar.google.com/public/basic.ics).
 
-This is a set of principles that we think an organisation—a connected product manufacturer, team or founder—would use to make a good, secure, ethical, product that also takes into account the upcoming General Data Protection Regulation (GDPR) directive. But also to push beyond the GDPR and look at the entire life cycle of a smart device. From manufacture, to final disposal.
+This is a set of principles that we think a vendor — a connected product manufacturer, team or founder — would use to make a good, secure, ethical, product that also takes into account the General Data Protection Regulation (GDPR). But also to push beyond the GDPR and look at the entire life cycle of a smart device. From manufacture, to final disposal.
 
 ## Terminology
 The terminology in this document is a bit technical, bear with us. We use _MUST_, _SHOULD_, and _MAY_ because of a technical writing standard called [RFC 2119](https://www.ietf.org/rfc/rfc2119.txt).
 
 ## Definitions
-
 Based on this simple [reference model](http://www.tamberg.org/iotmark/2018/ConnectedProductReferenceModel.pdf) for connected products.
 
 ### Connected Product
@@ -46,9 +45,9 @@ A _third party_ is anybody else than the vendor or the user.
 
 ### 1. The connected product the vendor supplies MUST be GDPR compliant.
 
-    Assessment criteria: GDPR policy is published on the organisation website / a simple checklist is completed. Use our checklist.
+    Assessment criteria: GDPR policy is published on the vendor website / a simple checklist is completed. Use our checklist.
 
-### 2. The organisation MUST NOT sell customer data without consent.
+### 2. The vendor MUST NOT sell customer data without consent.
 
     Assessment criteria: TODO
 
@@ -58,59 +57,59 @@ A _third party_ is anybody else than the vendor or the user.
 
 ## Interoperability
 
-### 4. The organisation SHOULD allow third parties to connect clients to its backend.
+### 4. The vendor SHOULD allow third parties to connect clients to its backend.
 
     Assessment criteria: TODO
 
-### 5. The organisation MAY allow third parties to connect devices to its backend.
+### 5. The vendor MAY allow third parties to connect devices to its backend.
 
-    Assessment criteria: The organisation provides URL(s) of publicly accessible documentation of the backend Application Programming Interface (API) for all of the following aspects:
+    Assessment criteria: The vendor provides URL(s) of publicly accessible documentation of the backend Application Programming Interface (API) for all of the following aspects:
     - Endpoints (e.g. api.example.com)
     - API (e.g. GET /things, e.g. described with Swagger)
     - Protocol (e.g. HTTP, MQTT, ...)
     - Data format (e.g. JSON, XML; clearly defined data types)
     - Data model / information model (e.g. service topics, how to measure temperature)
-    The organisation provides a way to apply for access rights (e.g. by issuing an API key)
+    The vendor provides a way to apply for access rights (e.g. by issuing an API key)
     An access token or something like this might be OK.
 
-### 6. The organisation SHOULD grant third parties the same functional scope on the backend as its own clients.
+### 6. The vendor SHOULD grant third parties the same functional scope on the backend as its own clients.
 
     Assessment criteria: The assessor collects complaints (e.g. including screenshots or other "proof") filed by third parties.
 
-### 7. The organisation SHOULD allow third parties to communicate directly with its devices without going through the backend.
+### 7. The vendor SHOULD allow third parties to communicate directly with its devices without going through the backend.
 
-    Assessment criteria: The organisation provides URL(s) of publicly accessible documentation for all of the following aspects of the device "API"
+    Assessment criteria: The vendor provides URL(s) of publicly accessible documentation for all of the following aspects of the device "API"
     - Device "API" (e.g. Bluetooth Profile)
     - Protocol (e.g. CoAP, MQTT)
     - Data format (e.g. binary encoding)
 
 ## Openness
 
-### 8. The organisation MAY publish the device source code under an open source license.
+### 8. The vendor MAY publish the device source code under an open source license.
 
     Assessment criteria: Files are accessible on inspection. We recommend using MIT License or Apache 2 or GPLv3 licenses for the source code or at least a license compliant with the Open Source Definition (https://opensource.org/docs/osd).
 
-### 9. The organisation MAY publish the device hardware designs under an open hardware license.
+### 9. The vendor MAY publish the device hardware designs under an open hardware license.
 
     Assessment criteria: Files are accessible on inspection.These may include but not limited to schema files, PCB layouts, and any other materials that would support the recreation of the product by the end user. We recommend using a license compliant with the Open Source Hardware Definition (https://www.oshwa.org/definition/).
 
-### 10. The organisation MAY publish the backend source code under an open source license.
+### 10. The vendor MAY publish the backend source code under an open source license.
 
     Assessment criteria: Files are accessible on inspection. We recommend using MIT License or Apache 2 or AGPLv3 licenses for the source code or at least a license compliant with the Open Source Definition (https://opensource.org/docs/osd).
 
 ## Data Governance
 
-### 11. The organisation SHOULD make it possible for customers to turn off the connection to the backend, this might mean that functionality of the device is reduced.
+### 11. The vendor SHOULD make it possible for customers to turn off the connection to the backend, this might mean that functionality of the device is reduced.
 
-    Assessment criteria: The dependency label is included on product or packaging as well as the organisation’s online presence. Use our suggested labelling system.
+    Assessment criteria: The dependency label is included on product or packaging as well as the vendor’s online presence. Use our suggested labelling system.
 
-### 12. The organisation SHOULD NOT degrade or change the current core functionality of the device over the product lifetime.
+### 12. The vendor SHOULD NOT degrade or change the current core functionality of the device over the product lifetime.
 
     Assessment criteria: List of core functionality vs. secondary functionality. Access to all commercially accessible versions of products for testing. Test the core functionality on audit.
 
 ## Permissions & Ownership
 
-### 13. The organisation MUST give users the ability to transfer ownership of the device.
+### 13. The vendor MUST give users the ability to transfer ownership of the device.
 
     Assessment criteria: TODO
 
@@ -118,31 +117,31 @@ A _third party_ is anybody else than the vendor or the user.
 
     Assessment criteria: TODO
 
-### 15. The organisation SHOULD offer users the ability to export their data.
+### 15. The vendor SHOULD offer users the ability to export their data.
 
     Assessment criteria: TODO
 
 ## Transparency
 
-### 16. The organisation MUST make explicit to the user what the implications of substantially changing usage of the device are.
+### 16. The vendor MUST make explicit to the user what the implications of substantially changing usage of the device are.
 
     Assessment criteria: Include on product or packaging. Use our labelling system.
 
-### 17. The organisation MUST be explicit as to the expected duration of terms of service
+### 17. The vendor MUST be explicit as to the expected duration of terms of service
 
     Assessment criteria: Include on product or packaging. Use our labelling system.
 
-### 18. If the organisation wants to change the length of the term of service, it MUST first ask permission from the customer.
+### 18. If the vendor wants to change the length of the term of service, it MUST first ask permission from the customer.
 
     Assessment criteria: Terms & conditions changes are communicated to customers and their permission is sought explicitly.
 
-### 19. The organisation MUST inform the user about firmware upgrades.
+### 19. The vendor MUST inform the user about firmware upgrades.
 
     Assessment criteria: An automated message should be generated or an alert to remind customers how to implement a change in firmware.
 
 ## Security
 
-### 20. The organisation MUST provide at least minimum cryptographic security on its backend & secure configuration
+### 20. The vendor MUST provide at least minimum cryptographic security on its backend & secure configuration
 
     Assessment criteria:
     The product will be tested to check the following:
@@ -154,7 +153,7 @@ A _third party_ is anybody else than the vendor or the user.
         - Only necessary ports are exposed to the internet (e.g. no access to debug ports like SSH/Telnet/etc., hadoop ports not open, SMB ports not open, NoSQL/SQL server ports not open, etc. etc.)
         - Relevant Cookie flags and security headers (web) present where applicable (see OWASP guidelines)
 
-### 21. The organisation’s backend MAY implement additional secure setup options.
+### 21. The vendor’s backend MAY implement additional secure setup options.
 
     Assessment criteria:
     The product will be tested to check the following:
@@ -168,13 +167,13 @@ A _third party_ is anybody else than the vendor or the user.
     - Principle of Least Privilege: API service users should have limited access
     - Managed access to data: Do DB users need to write to a DB they only search in? Do DB users have access to DB’s they shouldn’t do?
 
-### 22. The organisation SHOULD implement reliable and appropriate backend patching procedures which should be evidenced.
+### 22. The vendor SHOULD implement reliable and appropriate backend patching procedures which should be evidenced.
 
     Assessment criteria: Patches should be regularly applied to any system that is internet facing as a priority, within a reasonable time frame from patch release. Critical patches, where applicable, should be given priority.
 
-### 23. The organisation MUST enforce a strong user identity policy.
+### 23. The vendor MUST enforce a strong user identity policy.
 
-    Assessment criteria: The organisation’s sign in process encourages its customers to choose passwords which include alphanumeric characters, special symbols, and are of significant permitted length. These passports should be validated server side. Two factor authentication should be included & support for tokenized 2FA e.g. google authenticator.
+    Assessment criteria: The vendor’s sign in process encourages its customers to choose passwords which include alphanumeric characters, special symbols, and are of significant permitted length. These passports should be validated server side. Two factor authentication should be included & support for tokenized 2FA e.g. google authenticator.
 
 ### 24. The device SHOULD use strong cryptographic schemes.
 
@@ -205,11 +204,11 @@ A _third party_ is anybody else than the vendor or the user.
         - No unnecessary services (e.g. FTP, TFTP, SMB, etc.)
         - Documented moves to detect and block basic brute force attacks (e.g. password bruteforcing, WPS Pixie Dust, service bruteforcing, etc.)
         - Remove Debug/Development headers from PCB (JTAG/UART/etc.)
-        - The organisation’s product must be compliant with the IoTSF Security Compliance Framework
-        - Relevant compliance class number is published on packaging and online presence of the organisation.
-        - The organisation must take every precaution to protect usersits customers from the product being exposed to local / adjacent subnet attacks or any other attack.
+        - The vendor’s product must be compliant with the IoTSF Security Compliance Framework
+        - Relevant compliance class number is published on packaging and online presence of the vendor.
+        - The vendor must take every precaution to protect usersits customers from the product being exposed to local / adjacent subnet attacks or any other attack.
 
-### 26. The organisation MUST have clear admin user management policies.
+### 26. The vendor MUST have clear admin user management policies.
 
     Assessment criteria:
     The product will be tested to make sure it is compliant with
@@ -221,31 +220,31 @@ A _third party_ is anybody else than the vendor or the user.
 
 ## Lifecycle
 
-### 27. The organisation MUST offer the ability for a user to factory reset the device.
+### 27. The vendor MUST offer the ability for a user to factory reset the device.
 
     Assessment criteria: Device and/or backend has factory reset functionality ?
 
-### 28. The organisation MUST be clear about the expected lifetime of the service provided by the device and backend.
+### 28. The vendor MUST be clear about the expected lifetime of the service provided by the device and backend.
 
-    Assessment criteria: Include on the packaging of the product and on the online presence of the organisation a clear statement of intended lifetime and support. Post-lifetime support should be clearly explained ( replacement part vendor list. An End of Life T&C’s and End of Life actions should be well defined - including in case of bankruptcy, takeover, etc.Should include ‘what happens to my data?’ and ‘what happens to my device(s)?’
+    Assessment criteria: Include on the packaging of the product and on the online presence of the vendor a clear statement of intended lifetime and support. Post-lifetime support should be clearly explained ( replacement part vendor list. An End of Life T&C’s and End of Life actions should be well defined - including in case of bankruptcy, takeover, etc.Should include ‘what happens to my data?’ and ‘what happens to my device(s)?’
 
-### 29. The organisation MUST be clear about the levels of customer support provided during the lifetime of the product.
+### 29. The vendor MUST be clear about the levels of customer support provided during the lifetime of the product.
 
     Assessment criteria: description of customer support mechanisms online or on the on the packaging.
 
-### 30. The organisation SHOULD document any parts that a customer can repair using commonly accessible tools and skills.
+### 30. The vendor SHOULD document any parts that a customer can repair using commonly accessible tools and skills.
 
     Assessment criteria: Publicly available instructions and in an accessible format. STL files should be made available if the piece is expected to be 3D printed.
 
-### 31. The organisation SHOULD supply spare parts on request during the lifecycle of the product.
+### 31. The vendor SHOULD supply spare parts on request during the lifecycle of the product.
 
-    Assessment criteria: A clear and accessible form that a customer can fill in to request these part should be included as part of the packaging or online presence of the organisation.
+    Assessment criteria: A clear and accessible form that a customer can fill in to request these part should be included as part of the packaging or online presence of the vendor.
 
-### 32. The organisation SHOULD be able to list the geographic regions involved in the supply chain.
+### 32. The vendor SHOULD be able to list the geographic regions involved in the supply chain.
 
     Assessment criteria: Regions example: http://goodnightlamp.com/country-list/
 
-### 33. The organisation SHOULD be able to list at least the first level of suppliers involved in their supply chain.
+### 33. The vendor SHOULD be able to list at least the first level of suppliers involved in their supply chain.
 
     Assessment criteria: TODO
 
