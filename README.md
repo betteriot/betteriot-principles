@@ -42,14 +42,14 @@ The _user_ buys, owns or uses the connected product. The term is quite broad, bu
 A _third party_ is anybody else than the vendor or the user.
 
 ## Principles
-- [Privacy](#Privacy)
-- Interoperability
-- Openness
-- Data Governance
-- Permissions & Ownership
-- Transparency
-- Security
-- Lifecycle
+- [Privacy](#privacy)
+- [Interoperability](#interoperability)
+- [Openness](#openness)
+- [Data Governance](#data-governance)
+- [Permissions & Ownership](permissions--ownership)
+- [Transparency](transparency)
+- [Security](security)
+- [Lifecycle](lifecycle)
 
 ## Assessment
 The assessment criteria below are intended to be "self-assessed but verifiable" and allow "verification through documentation" as specified in [this presentation](https://www.slideshare.net/peterbihr/towards-a-trustmark-for-iot-30-may-2018) by Peter Bihr / ThingsCon (CC BY-SA 4.0).
