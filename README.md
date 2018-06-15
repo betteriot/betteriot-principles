@@ -46,10 +46,10 @@ A _third party_ is anybody else than the vendor or the user.
 - [Interoperability](#interoperability)
 - [Openness](#openness)
 - [Data Governance](#data-governance)
-- [Permissions & Ownership](permissions--ownership)
-- [Transparency](transparency)
-- [Security](security)
-- [Lifecycle](lifecycle)
+- [Permissions & Ownership](#permissions--ownership)
+- [Transparency](#transparency)
+- [Security](#security)
+- [Lifecycle](#lifecycle)
 
 ## Assessment
 The assessment criteria below are intended to be "self-assessed but verifiable" and allow "verification through documentation" as specified in [this presentation](https://www.slideshare.net/peterbihr/towards-a-trustmark-for-iot-30-may-2018) by Peter Bihr / ThingsCon (CC BY-SA 4.0).
