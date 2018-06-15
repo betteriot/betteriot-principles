@@ -9,7 +9,7 @@ This is a set of principles that we think an organisation—a connected product 
 
 The terminology in this document is a bit technical, bear with us. We use MUST, SHOULD, and MAY because of a technical writing standard called [RFC 2119](https://www.ietf.org/rfc/rfc2119.txt). 
 
-We use this [reference model](http://tamberg.org/iotmark/2018/ConnectedProductReferenceModel.pdf) to define the terms device, gateway and backend.
+We use this [reference model](http://www.tamberg.org/iotmark/2018/ConnectedProductReferenceModel.pdf) to define the terms device, gateway and backend.
 
 ## Privacy
 
