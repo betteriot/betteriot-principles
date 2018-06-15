@@ -37,7 +37,7 @@ A _client_ is any app, dashboard or third party service. Once a device is connec
 The _vendor_ builds, sells or operates the connected product and implements the IoT Mark principles. The term is not very concise, but seems more accurate than manufacturer, seller, integrator, maintainer or service operator.
 
 ### User
-The _user_ buys, owns or uses the connected product. The term is quite broad, but seems more fitting than consumer, owner or data subject.
+The _user_ buys, owns or uses the connected product. The term is quite broad, but seems more fitting than consumer, customer, owner or data subject.
 
 ### Third party
 A _third party_ is anybody else than the vendor or the user.
@@ -52,7 +52,7 @@ A _third party_ is anybody else than the vendor or the user.
 
     Assessment criteria: TODO
 
-### 3. Their customer data MUST NOT be used for profiling, marketing or advertising without transparent disclosure.
+### 3. Their customer data MUST NOT be used for profiling, marketing or advertising without transparent disclosure and easy opt-out.
 
     Assessment criteria: ICA complaint (registration number)
 
@@ -269,4 +269,4 @@ Lifecycle: Alasdair Allan (@aallan), Chris Adams (@mrchrisadams), Adrian McEwen 
 
 Berlin March 2018 edit by: Alasdair Allan (@aallan), Anthony James Munns (@bitshiftmask), Albrecht Kurze (@AlbrechtKurze), Thomas Amberg (@tamberg), Chris Adams (@mrchrisadams), Alexandra Deschamps-Sonsino (@iotwatch)
 
-London June 2018 edit by: Alexandra Deschamps-Sonsino (@iotwatch), Thomas Amberg (@tamberg), @Ignius_IoT, Laura James (@LaurieJ), Albrecht Kurze (@AlbrechtKurze), @vpetersson, Alasdair Allan (@aallan), @djdunc, @domguinard, @GeuseppeGC, @driesderoeck, konrad@komorowski.me @a_b_powell   @ukmoose      @louisehugen @fundaustek alex.kosenkov@gmail.com (please add yourself)
+London June 2018 edit by: Alexandra Deschamps-Sonsino (@iotwatch), Thomas Amberg (@tamberg), @Ignius_IoT, Laura James (@LaurieJ), Albrecht Kurze (@AlbrechtKurze), Viktor Petersson (@vpetersson), Alasdair Allan (@aallan), Duncan Wilson (@djdunc), Dom Guinard (@domguinard), Geusseppe Gonzalez (@GeuseppeGC), Dries De Roeck (@driesderoeck), Konrad Komorowski, Alison Powell (@a_b_powell), Mark (@ukmoose), Louise Hugen (@louisehugen), Funda Ustek-Spilda (@fundaustek), Alex Kosenkov
