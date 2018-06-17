@@ -117,21 +117,29 @@ Example: Generic BLE heart rate sensor
 
 ## Openness
 
-### 8. The vendor MAY publish the device source code under an open source license.
+### 8. The vendor MAY publish the device firmware source code under an open source license.
 
 Assessment: The vendor submits links to a public source code repository or ZIP file. The source code is licensed with MIT License or Apache 2 or GPLv3 or at least a license compliant with the Open Source Definition (https://opensource.org/docs/osd).
+
+Example: [TheThingsNetwork firmware](https://github.com/TheThingsNetwork/arduino-device-lib)
 
 ### 9. The vendor MAY publish the device hardware designs under an open hardware license.
 
 Assessment: The vendor submits links to a public repository or ZIP file. Hardware design files may include but are not limited to schema files, PCB layouts, and any other materials that would support the recreation of the product by the user or a third party. The license is compliant with the Open Source Hardware Definition (https://www.oshwa.org/definition/).
 
+Example: [Safecast devices](https://github.com/Safecast/General/wiki/Safecast-Devices)
+
 ### 10. The vendor MAY publish the backend source code under an open source license.
 
 Assessment: The vendor submits links to a public repository or ZIP file. The source code is licensed with Apache 2 or AGPLv3 or at least a license compliant with the Open Source Definition (https://opensource.org/docs/osd).
 
+Example: [TheThingsNetwork backend source code](https://github.com/TheThingsNetwork/ttn) ([MIT License](https://github.com/TheThingsNetwork/ttn/blob/develop/LICENSE))
+
 ### ?. The vendor MAY publish client source code under an open source license.
 
 Assessment: The vendor submits links to a public source code repository or ZIP file. The source code is licensed with MIT License or Apache 2 or GPLv3 or at least a license compliant with the Open Source Definition (https://opensource.org/docs/osd).
+
+Example: TODO
 
 ## Data Governance
 
