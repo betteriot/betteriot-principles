@@ -103,7 +103,7 @@ Example: [ThingSpeak MQTT Device API](https://ch.mathworks.com/help/thingspeak/p
 
 ### 7. The vendor SHOULD allow third parties to communicate directly with its devices without going through the backend.
 
-    Assessment: The vendor submits links to public documentation of the device communication interface.
+Assessment: The vendor submits links to public documentation of the device communication interface.
 
 Example: (TODO)
 
