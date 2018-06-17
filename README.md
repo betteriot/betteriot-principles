@@ -99,7 +99,7 @@ Example: [ThingSpeak MQTT Device API](https://ch.mathworks.com/help/thingspeak/p
     - Protocol: MQTT with TLS
     - Methods: PUB channels/CHANNEL_ID/publish/API_KEY
     - Data Format: ASCII, field1=T_VALUE&field2=H_VALUE
-    - Data Types: Temperature, Humidity
+    - Data Types: Channels, Measurements, e.g. Temperature & Humidity
 
 ### 7. The vendor SHOULD allow third parties to communicate directly with its devices without going through the backend.
 
