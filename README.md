@@ -82,8 +82,8 @@ Example: [Safecast HTTP Client API](https://api.safecast.org/)
     - Endpoint: api.safecast.org:443
     - Protocol: HTTPS
     - Methods: GET /measurements.json, ...
-    - Data Format: JSON, e.g. Measurement {"value":47.0,"unit":"cpm","captured_at":"2011-04-23T21:53:03.000Z","latitude":35.640968333333,"longitude":139.72069833333}
-    - Data Model: Users, Measurements, Devices
+    - Data format: JSON, e.g. Measurement {"value":47.0,"unit":"cpm","captured_at":"2011-04-23T21:53:03.000Z","latitude":35.640968333333,"longitude":139.72069833333}
+    - Data model: users, measurements, devices
 
 ### 6. The vendor SHOULD grant third parties the same functional scope on the backend as its own clients.
 
@@ -98,19 +98,20 @@ Example: [ThingSpeak MQTT Device API](https://ch.mathworks.com/help/thingspeak/p
     - Endpoint: mqtt.thingspeak.com:8883
     - Protocol: MQTT with TLS
     - Methods: PUB channels/CHANNEL_ID/publish/API_KEY
-    - Data Format: ASCII, field1=T_VALUE&field2=H_VALUE
-    - Data Types: Channels, Measurements, e.g. Temperature & Humidity
+    - Data format: ASCII, field1=T_VALUE&field2=H_VALUE
+    - Data model: channels, measurements, e.g. temperature & humidity
 
 ### 7. The vendor SHOULD allow third parties to communicate directly with its devices without going through the backend.
 
 Assessment: The vendor submits links to public documentation of the device communication interface.
 
-Example: (TODO)
+Example: Generic BLE heart rate sensor
 
-    - physical communication standard (e.g. Bluetooth radio)
-    - access primitives (e.g. Bluetooth Profile)
-    - protocol (e.g. CoAP, MQTT)
-    - payload data format (e.g. binary encoding).
+    - Physical communication standard: Bluetooth Low Energy (BLE))
+    - Protocol (e.g. BLE [GATT](https://www.bluetooth.com/specifications/gatt/generic-attributes-overview))
+    - Access primitives: BLE [Heart Rate Profile](https://developer.bluetooth.org/TechnologyOverview/Pages/HRP.aspx))
+    - Data format: binary encoding, e.g. [heart rate measurement](https://www.bluetooth.com/specifications/gatt/viewer?attributeXmlFile=org.bluetooth.characteristic.heart_rate_measurement.xml&u=org.bluetooth.characteristic.heart_rate_measurement.xml)
+    - Data model: heart rate, sensor location, control point
 
 ## Openness
 
