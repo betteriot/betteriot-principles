@@ -119,15 +119,19 @@ Example: Generic BLE heart rate sensor
 
 ### 8. The vendor MAY publish the device source code under an open source license.
 
-    Assessment criteria: Files are accessible on inspection. We recommend using MIT License or Apache 2 or GPLv3 licenses for the source code or at least a license compliant with the Open Source Definition (https://opensource.org/docs/osd).
+Assessment: The vendor submits links to a public source code repository or ZIP file. The source code is licensed with MIT License or Apache 2 or GPLv3 or at least a license compliant with the Open Source Definition (https://opensource.org/docs/osd).
 
 ### 9. The vendor MAY publish the device hardware designs under an open hardware license.
 
-    Assessment criteria: Files are accessible on inspection.These may include but not limited to schema files, PCB layouts, and any other materials that would support the recreation of the product by the end user. We recommend using a license compliant with the Open Source Hardware Definition (https://www.oshwa.org/definition/).
+Assessment: The vendor submits links to a public repository or ZIP file. Hardware design files may include but are not limited to schema files, PCB layouts, and any other materials that would support the recreation of the product by the user or a third party. The license is compliant with the Open Source Hardware Definition (https://www.oshwa.org/definition/).
 
 ### 10. The vendor MAY publish the backend source code under an open source license.
 
-    Assessment criteria: Files are accessible on inspection. We recommend using MIT License or Apache 2 or AGPLv3 licenses for the source code or at least a license compliant with the Open Source Definition (https://opensource.org/docs/osd).
+Assessment: The vendor submits links to a public repository or ZIP file. The source code is licensed with Apache 2 or AGPLv3 or at least a license compliant with the Open Source Definition (https://opensource.org/docs/osd).
+
+### ?. The vendor MAY publish client source code under an open source license.
+
+Assessment: The vendor submits links to a public source code repository or ZIP file. The source code is licensed with MIT License or Apache 2 or GPLv3 or at least a license compliant with the Open Source Definition (https://opensource.org/docs/osd).
 
 ## Data Governance
 
