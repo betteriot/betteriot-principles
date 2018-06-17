@@ -85,9 +85,11 @@ Example: [Safecast HTTP Client API](https://api.safecast.org/)
     - Data format: JSON, e.g. Measurement {"value":47.0,"unit":"cpm","captured_at":"2011-04-23T21:53:03.000Z","latitude":35.640968333333,"longitude":139.72069833333}
     - Data model: users, measurements, devices
 
-### 6. The vendor SHOULD grant third parties the same functional scope on the backend as its own clients.
+### 6. The vendor SHOULD grant third party clients the same functional scope on the backend as its own clients.
 
 Assessment: The assessor collects complaints (e.g. including screenshots or other "proof") filed by third parties.
+
+Example: Some client-specific backend APIs delay measurements they make available to third party clients, preventing them from making real-time decisions.
 
 ### 5. The vendor MAY allow third parties to connect devices to its backend.
 
