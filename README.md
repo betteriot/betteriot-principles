@@ -133,7 +133,7 @@ Example: [Safecast devices](https://github.com/Safecast/General/wiki/Safecast-De
 
 Assessment: The vendor submits links to a public repository or ZIP file. The source code is licensed with Apache 2 or AGPLv3 or at least a license compliant with the Open Source Definition (https://opensource.org/docs/osd).
 
-Example: [TheThingsNetwork backend source code](https://github.com/TheThingsNetwork/ttn) ([MIT License](https://github.com/TheThingsNetwork/ttn/blob/develop/LICENSE))
+Example: [TheThingsNetwork backend source code](https://github.com/TheThingsNetwork/ttn)
 
 ### ?. The vendor MAY publish client source code under an open source license.
 
