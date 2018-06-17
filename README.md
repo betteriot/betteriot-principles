@@ -107,7 +107,10 @@ Assessment: The vendor submits links to public documentation of the device commu
 
 Example: (TODO)
 
-    This includes the physical communication standard (e.g. Bluetooth radio), access primitives (e.g. Bluetooth Profile), protocol (e.g. CoAP, MQTT) and payload data format (e.g. binary encoding).
+    - physical communication standard (e.g. Bluetooth radio)
+    - access primitives (e.g. Bluetooth Profile)
+    - protocol (e.g. CoAP, MQTT)
+    - payload data format (e.g. binary encoding).
 
 ## Openness
 
