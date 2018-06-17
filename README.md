@@ -30,6 +30,9 @@ The device is connected to a _backend_, consisting of one or more server(s) "in 
 ### Client
 A _client_ is any app, dashboard or third party service. Once a device is connected, it allows for virtual interaction, often through a backend API.
 
+### API
+An _API_ is an application programming interface. It defines an endpoint, a protocol and a data format. The backend API allows devices or clients to programmatically talk to the backend.
+
 ## Roles
 
 ### Vendor
@@ -58,43 +61,53 @@ The assessment criteria below are intended to be "self-assessed but verifiable" 
 
 ### 1. The connected product the vendor supplies MUST be GDPR compliant.
 
-    Assessment criteria: GDPR policy is published on the vendor website / a simple checklist is completed. Use our checklist.
+    Assessment: GDPR policy is published on the vendor website / a simple checklist is completed. Use our checklist.
 
 ### 2. The vendor MUST NOT sell customer data without consent.
 
-    Assessment criteria: TODO
+    Assessment: TODO
 
 ### 3. Their customer data MUST NOT be used for profiling, marketing or advertising without transparent disclosure and easy opt-out.
 
-    Assessment criteria: ICA complaint (registration number)
+    Assessment: ICA complaint (registration number)
 
 ## Interoperability
 
 ### 4. The vendor SHOULD allow third parties to connect clients to its backend.
 
-    Assessment criteria: TODO
+Assessment: The vendor submits links to public documentation of the client-specific backend API.
 
-### 5. The vendor MAY allow third parties to connect devices to its backend.
+Example: [Safecast HTTP Client API](https://api.safecast.org/)
 
-    Assessment criteria: The vendor provides URL(s) of publicly accessible documentation of the backend Application Programming Interface (API) for all of the following aspects:
-    - Endpoints (e.g. api.example.com)
-    - API (e.g. GET /things, e.g. described with Swagger)
-    - Protocol (e.g. HTTP, MQTT, ...)
-    - Data format (e.g. JSON, XML; clearly defined data types)
-    - Data model / information model (e.g. service topics, how to measure temperature)
-    The vendor provides a way to apply for access rights (e.g. by issuing an API key)
-    An access token or something like this might be OK.
+    - Endpoint: api.safecast.org:443
+    - Protocol: HTTPS
+    - Methods: GET /measurements.json, ...
+    - Data Format: JSON, e.g. Measurement {"value":47.0,"unit":"cpm","captured_at":"2011-04-23T21:53:03.000Z","latitude":35.640968333333,"longitude":139.72069833333}
+    - Data Model: Users, Measurements, Devices
 
 ### 6. The vendor SHOULD grant third parties the same functional scope on the backend as its own clients.
 
-    Assessment criteria: The assessor collects complaints (e.g. including screenshots or other "proof") filed by third parties.
+Assessment: The assessor collects complaints (e.g. including screenshots or other "proof") filed by third parties.
+
+### 5. The vendor MAY allow third parties to connect devices to its backend.
+
+Assessment: The vendor submits links to public documentation of the device-specific backend API.
+
+Example: [ThingSpeak MQTT Device API](https://ch.mathworks.com/help/thingspeak/publishtoachannelfeed.html)
+
+    - Endpoint: mqtt.thingspeak.com:8883
+    - Protocol: MQTT with TLS
+    - Methods: PUB channels/CHANNEL_ID/publish/API_KEY
+    - Data Format: ASCII, field1=T_VALUE&field2=H_VALUE
+    - Data Types: Temperature, Humidity
 
 ### 7. The vendor SHOULD allow third parties to communicate directly with its devices without going through the backend.
 
-    Assessment criteria: The vendor provides URL(s) of publicly accessible documentation for all of the following aspects of the device "API"
-    - Device "API" (e.g. Bluetooth Profile)
-    - Protocol (e.g. CoAP, MQTT)
-    - Data format (e.g. binary encoding)
+    Assessment: The vendor submits links to public documentation of the device communication interface.
+
+Example: (TODO)
+
+    This includes the physical communication standard (e.g. Bluetooth radio), access primitives (e.g. Bluetooth Profile), protocol (e.g. CoAP, MQTT) and payload data format (e.g. binary encoding).
 
 ## Openness
 
@@ -115,10 +128,6 @@ The assessment criteria below are intended to be "self-assessed but verifiable" 
 ### 11. The vendor SHOULD make it possible for customers to turn off the connection to the backend, this might mean that functionality of the device is reduced.
 
     Assessment criteria: The dependency label is included on product or packaging as well as the vendor’s online presence. Use our suggested labelling system.
-
-### 12. The vendor SHOULD NOT degrade or change the current core functionality of the device over the product lifetime.
-
-    Assessment criteria: List of core functionality vs. secondary functionality. Access to all commercially accessible versions of products for testing. Test the core functionality on audit.
 
 ## Permissions & Ownership
 
@@ -244,6 +253,10 @@ The assessment criteria below are intended to be "self-assessed but verifiable" 
 ### 29. The vendor MUST be clear about the levels of customer support provided during the lifetime of the product.
 
     Assessment criteria: description of customer support mechanisms online or on the on the packaging.
+
+### 12. The vendor SHOULD NOT degrade or change the current core functionality of the connected product over its lifetime.
+
+    Assessment: Core functionality is declared once by the vendor and backed by submitting marketing materials. Compliance with the principle can be verified on audit or by users at any time by comparing the current functionality with the declared core functionality.
 
 ### 30. The vendor SHOULD document any parts that a customer can repair using commonly accessible tools and skills.
 
