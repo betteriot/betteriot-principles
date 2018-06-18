@@ -124,6 +124,7 @@ Assessment: The vendor submits links to public documentation explaining how to s
 Example: TODO
 
 ## Interoperability
+Note: Interoperability is about making it technically possible to use devices, backends and clients of the vendor with those of a third party. Interoperability does not imply unrestricted access to user data.
 
 ### 4. The vendor SHOULD allow third parties to connect clients to its backend.
 
@@ -168,6 +169,7 @@ Example: Generic BLE heart rate sensor
     - Data model: heart rate, sensor location, control point
 
 ## Openness
+Note: Openness is about open source, which is considered a simple way to reduce dependencies between a vendor and a user and build trust between them. Openness does not imply unrestricted access to user data.
 
 ### 8. The vendor MAY publish the device firmware source code under an open source license.
 
@@ -177,19 +179,19 @@ Example: [TheThingsNetwork firmware](https://github.com/TheThingsNetwork/arduino
 
 ### 9. The vendor MAY publish the device hardware designs under an open hardware license.
 
-Assessment: The vendor submits links to a public repository or ZIP file. Hardware design files may include but are not limited to schema files, PCB layouts, and any other materials that would support the recreation of the product by the user or a third party. The license is compliant with the Open Source Hardware Definition (https://www.oshwa.org/definition/).
+Assessment: The vendor submits links to a public repository or ZIP file. Hardware design files may include but are not limited to schema files, PCB layouts, and any other materials that would support the recreation of the product by the user or a third party. The license is compliant with the [Open Source Hardware Definition](https://www.oshwa.org/definition/).
 
 Example: [Safecast devices](https://github.com/Safecast/General/wiki/Safecast-Devices)
 
 ### 10. The vendor MAY publish the backend source code under an open source license.
 
-Assessment: The vendor submits links to a public repository or ZIP file. The source code is licensed with Apache 2 or AGPLv3 or at least a license compliant with the Open Source Definition (https://opensource.org/docs/osd).
+Assessment: The vendor submits links to a public repository or ZIP file. The source code is licensed with Apache 2 or AGPLv3 or at least a license compliant with the [Open Source Definition](https://opensource.org/docs/osd).
 
 Example: [TheThingsNetwork backend source code](https://github.com/TheThingsNetwork/ttn)
 
 ### ?. The vendor MAY publish client source code under an open source license.
 
-Assessment: The vendor submits links to a public source code repository or ZIP file. The source code is licensed with MIT License or Apache 2 or GPLv3 or at least a license compliant with the Open Source Definition (https://opensource.org/docs/osd).
+Assessment: The vendor submits links to a public source code repository or ZIP file. The source code is licensed with MIT License or Apache 2 or GPLv3 or at least a license compliant with the [Open Source Definition](https://opensource.org/docs/osd).
 
 Example: TODO
 
