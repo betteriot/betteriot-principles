@@ -74,35 +74,35 @@ Note: Connected products often collect data through device sensors or by logging
 
 <strike>Assessment: ICA complaint (registration number)</strike>
 
-### ?. The vendor MUST allow the user to access his/her (personal) data, free of charge.
+### ?. The vendor MUST allow the user to access the collected data, free of charge.
 
 Assessment: TODO
 
-### ?. The vendor MUST make clear to the user how his/her (personal) data is used.
+### ?. The vendor MUST make clear to the user how the collected data is used.
 
 Assessment: TODO
 
-### ?. The vendor MUST provide a way for the user to delete his/her (personal) data, to be forgotten.
+### ?. The vendor MUST provide a way for the user to delete the collected data, to be forgotten.
 
 Assessment: TODO
 
-### ?. The vendor MUST allow the user to migrate his/her (personal) data to another backend.
+### ?. The vendor MUST allow the user to migrate the collected data to another backend.
 
 Assessment: TODO
 
-### ?. The vendor MUST provide an easy way to the user to opt-out of direct marketing based on his/her (personal) data.
+### ?. The vendor MUST provide an easy way to the user to opt-out of direct marketing based on the collected data.
 
 Assessment: TODO
 
-### ?. The vendor MUST provide a way for the user to restrict the use of his/her (personal) data.
+### ?. The vendor MUST provide a way for the user to restrict the use of the collected data.
 
 Assessment: TODO
 
-### ?. The vendor MUST provide a way for the user to update his/her (personal) data.
+### ?. The vendor MUST provide a way for the user to update the collected data.
 
 Assessment: TODO
 
-### ?. The vendor MUST let the user stop automated decisions being made about him/her, if there are legal or significant consequences.
+### ?. The vendor MUST let the user stop automated decisions being made, if there are personal legal or significant consequences.
 
 Assessment: TODO
 
