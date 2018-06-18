@@ -194,7 +194,7 @@ Example: TODO
 
 ### <strike>15. The vendor SHOULD offer users the ability to export their data.</strike>
 
-<strike>Assessment criteria: TODO<strike>
+<strike>Assessment criteria: TODO</strike>
 
 ## Transparency
 
