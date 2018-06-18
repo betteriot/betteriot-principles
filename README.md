@@ -53,7 +53,7 @@ To enable a central repository, assessment deliverables should be URL links to p
 - [Privacy](#privacy)
 - [Interoperability](#interoperability)
 - [Openness](#openness)
-- [Permissions & Ownership](#permissions--ownership)
+- [Ownership](#ownership)
 - [Transparency](#transparency)
 - [Security](#security)
 - [Lifecycle](#lifecycle)
@@ -193,7 +193,7 @@ Assessment: The vendor submits links to a public source code repository or ZIP f
 
 Example: TODO
 
-## Permissions & Ownership
+## Ownership
 
 ### 11. The vendor SHOULD make it possible for customers to turn off the connection to the backend, this might mean that functionality of the device is reduced.
 
