@@ -338,11 +338,11 @@ Example: TODO
 
 ### <strike>32. The vendor SHOULD be able to list the geographic regions involved in the supply chain.</strike>
 
-<strike>Assessment criteria: Regions example: http://goodnightlamp.com/country-list/</strike>
+<strike>Assessment: Regions example: http://goodnightlamp.com/country-list/</strike>
 
 ### <strike>33. The vendor SHOULD be able to list at least the first level of suppliers involved in their supply chain.</strike>
 
-<strike>Assessment criteria: TODO</strike>
+<strike>Assessment: TODO</strike>
 
 # Contributors
 
