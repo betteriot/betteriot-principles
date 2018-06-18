@@ -336,13 +336,13 @@ Example: TODO
 
     Assessment criteria: A clear and accessible form that a customer can fill in to request these part should be included as part of the packaging or online presence of the vendor.
 
-### 32. The vendor SHOULD be able to list the geographic regions involved in the supply chain.
+### <strike>32. The vendor SHOULD be able to list the geographic regions involved in the supply chain.</strike>
 
-    Assessment criteria: Regions example: http://goodnightlamp.com/country-list/
+<strike>Assessment criteria: Regions example: http://goodnightlamp.com/country-list/</strike>
 
-### 33. The vendor SHOULD be able to list at least the first level of suppliers involved in their supply chain.
+### <strike>33. The vendor SHOULD be able to list at least the first level of suppliers involved in their supply chain.</strike>
 
-    Assessment criteria: TODO
+<strike>Assessment criteria: TODO</strike>
 
 # Contributors
 
