@@ -13,7 +13,7 @@ This is a set of principles that we think a vendor — a connected product manuf
 The terminology in this document is a bit technical, bear with us. We use _MUST_, _SHOULD_, and _MAY_ because of a technical writing standard called [RFC 2119](https://www.ietf.org/rfc/rfc2119.txt).
 
 ## Definitions
-The following definitions are based on this simple [reference model](http://www.tamberg.org/iotmark/2018/ConnectedProductReferenceModel.pdf) for connected products.
+The following definitions are based on a simple [reference model](http://www.tamberg.org/iotmark/2018/ConnectedProductReferenceModel.pdf) for connected products.
 
 ### Connected Product
 A _connected product_ is the entirety of one or more devices, gateways, a backend, apps and the services they represent.
@@ -44,18 +44,19 @@ The _user_ buys, owns or uses the connected product. The term is quite broad, bu
 ### Third party
 A _third party_ is everybody else than the vendor or the user.
 
+## Assessment
+The assessment criteria below are intended to be "self-assessed but verifiable" and allow "verification through documentation" as specified in [this presentation](https://www.slideshare.net/peterbihr/towards-a-trustmark-for-iot-30-may-2018) by Peter Bihr / ThingsCon (CC BY-SA 4.0).
+
+To enable a central repository, assessment deliverables should be URL links to publicly accessible resources on the vendor website, including technical and user documentation, privacy and security policies, terms and source code.
+
 ## Principles
 - [Privacy](#privacy)
 - [Interoperability](#interoperability)
 - [Openness](#openness)
-- [Data Governance](#data-governance)
 - [Permissions & Ownership](#permissions--ownership)
 - [Transparency](#transparency)
 - [Security](#security)
 - [Lifecycle](#lifecycle)
-
-## Assessment
-The assessment criteria below are intended to be "self-assessed but verifiable" and allow "verification through documentation" as specified in [this presentation](https://www.slideshare.net/peterbihr/towards-a-trustmark-for-iot-30-may-2018) by Peter Bihr / ThingsCon (CC BY-SA 4.0).
 
 ## Privacy
 Note: Connected products often collect data through device sensors or by logging user commands. The distinction between personal user data and environmental data becomes fluent. All data is assumed to be personal.
@@ -192,13 +193,11 @@ Assessment: The vendor submits links to a public source code repository or ZIP f
 
 Example: TODO
 
-## Data Governance
+## Permissions & Ownership
 
 ### 11. The vendor SHOULD make it possible for customers to turn off the connection to the backend, this might mean that functionality of the device is reduced.
 
-    Assessment criteria: The dependency label is included on product or packaging as well as the vendor’s online presence. Use our suggested labelling system.
-
-## Permissions & Ownership
+    Assessment: The vendor submits The dependency label is included on product or packaging as well as the vendor’s online presence. Use our suggested labelling system.
 
 ### 13. The vendor MUST give users the ability to transfer ownership of the device.
 
