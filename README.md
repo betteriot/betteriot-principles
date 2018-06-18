@@ -76,35 +76,51 @@ Note: Connected products often collect data through device sensors or by logging
 
 ### ?. The vendor MUST allow the user to access the collected data, free of charge.
 
-Assessment: TODO, Example: TODO
+Assessment: The vendor submits links to public documentation explaining how to export collected data, and a link to the respective section in terms & conditions.
+
+Example: TODO
 
 ### ?. The vendor MUST make clear to the user how the collected data is used.
 
-Assessment: TODO, Example: TODO
+Assessment: The vendor submits links to public documentation explaining how the collected data is used.
+
+Example: TODO
 
 ### ?. The vendor MUST provide a way for the user to delete the collected data, to be forgotten.
 
-Assessment: TODO, Example: TODO
+Assessment: The vendor submits links to public documentation explaining how to delete collected data.
+
+Example: TODO
 
 ### ?. The vendor MUST allow the user to migrate the collected data to another backend.
 
-Assessment: TODO, Example: TODO
+Assessment: The vendor submits links to public documentation explaining how to export collected data, and a link to the respective section in terms & conditions.
 
-### ?. The vendor MUST provide an easy way to the user to opt-out of direct marketing based on the collected data.
+Example: TODO
 
-Assessment: TODO, Example: TODO
+### ?. The vendor MUST provide an easy way to the user to opt out of direct marketing based on the collected data.
+
+Assessment: The vendor submits links to public documentation explaining how to opt out of direct marketing based on the collected data.
+
+Example: TODO
 
 ### ?. The vendor MUST provide a way for the user to restrict the use of the collected data.
 
-Assessment: TODO, Example: TODO
+Assessment: The vendor submits links to public documentation explaining how to restrict the use of the collected data.
+
+Example: TODO
 
 ### ?. The vendor MUST provide a way for the user to update the collected data.
 
-Assessment: TODO, Example: TODO
+Assessment: The vendor submits links to public documentation explaining how to update the collected data.
+
+Example: TODO
 
 ### ?. The vendor MUST let the user stop automated decisions being made, if there are personal legal or significant consequences.
 
-Assessment: TODO, Example: TODO
+Assessment: The vendor submits links to public documentation explaining how to stop automated decisions and get a human to re-evaluate the decision.
+
+Example: TODO
 
 ## Interoperability
 
