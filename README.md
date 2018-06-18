@@ -162,10 +162,10 @@ Assessment: The vendor submits links to public documentation of the device commu
 
 Example: Generic BLE heart rate sensor
 
-    - Physical communication standard: Bluetooth Low Energy (BLE))
-    - Protocol (e.g. BLE [GATT](https://www.bluetooth.com/specifications/gatt/generic-attributes-overview))
-    - Access primitives: BLE [Heart Rate Profile](https://developer.bluetooth.org/TechnologyOverview/Pages/HRP.aspx))
-    - Data format: binary encoding, e.g. [heart rate measurement](https://www.bluetooth.com/specifications/gatt/viewer?attributeXmlFile=org.bluetooth.characteristic.heart_rate_measurement.xml&u=org.bluetooth.characteristic.heart_rate_measurement.xml)
+    - Physical communication standard: Bluetooth Low Energy (BLE)
+    - Protocol: BLE [GATT](https://www.bluetooth.com/specifications/gatt/generic-attributes-overview)
+    - Access primitives: BLE [Heart Rate Profile](https://developer.bluetooth.org/TechnologyOverview/Pages/HRP.aspx)
+    - Data format: binary encoding, [heart rate measurement](https://www.bluetooth.com/specifications/gatt/viewer?attributeXmlFile=org.bluetooth.characteristic.heart_rate_measurement.xml&u=org.bluetooth.characteristic.heart_rate_measurement.xml)
     - Data model: heart rate, sensor location, control point
 
 ## Openness
