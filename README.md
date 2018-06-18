@@ -13,7 +13,7 @@ This is a set of principles that we think a vendor — a connected product manuf
 The terminology in this document is a bit technical, bear with us. We use _MUST_, _SHOULD_, and _MAY_ because of a technical writing standard called [RFC 2119](https://www.ietf.org/rfc/rfc2119.txt).
 
 ## Definitions
-Based on this simple [reference model](http://www.tamberg.org/iotmark/2018/ConnectedProductReferenceModel.pdf) for connected products.
+The following definitions are based on this simple [reference model](http://www.tamberg.org/iotmark/2018/ConnectedProductReferenceModel.pdf) for connected products.
 
 ### Connected Product
 A _connected product_ is the entirety of one or more devices, gateways, a backend, apps and the services they represent.
@@ -42,7 +42,7 @@ The _vendor_ builds, sells or operates the connected product and implements the 
 The _user_ buys, owns or uses the connected product. The term is quite broad, but seems more fitting than consumer, customer, owner or data subject.
 
 ### Third party
-A _third party_ is anybody else than the vendor or the user.
+A _third party_ is everybody else than the vendor or the user.
 
 ## Principles
 - [Privacy](#privacy)
@@ -58,18 +58,53 @@ A _third party_ is anybody else than the vendor or the user.
 The assessment criteria below are intended to be "self-assessed but verifiable" and allow "verification through documentation" as specified in [this presentation](https://www.slideshare.net/peterbihr/towards-a-trustmark-for-iot-30-may-2018) by Peter Bihr / ThingsCon (CC BY-SA 4.0).
 
 ## Privacy
+Note: Connected products often collect data through device sensors or by logging user commands. The distinction between personal user data and environmental data becomes fluent. All data is assumed to be personal.
 
-### 1. The connected product the vendor supplies MUST be GDPR compliant.
+### <strike>1. The connected product the vendor supplies MUST be GDPR compliant.</strike>
 
-    Assessment: GDPR policy is published on the vendor website / a simple checklist is completed. Use our checklist.
+<strike>Assessment: GDPR policy is published on the vendor website / a simple checklist is completed. Use our checklist.</strike>
 
-### 2. The vendor MUST NOT sell customer data without consent.
+<strike>Example: [GDPR for things](https://www.slideshare.net/sasvangent/gdpr-for-things-thingscon-amsterdam-2017/1)</strike>
 
-    Assessment: TODO
+### <strike>2. The vendor MUST NOT sell user data without consent.</strike>
 
-### 3. Their customer data MUST NOT be used for profiling, marketing or advertising without transparent disclosure and easy opt-out.
+<strike>Assessment: TODO</strike>
 
-    Assessment: ICA complaint (registration number)
+### <strike>3. User data MUST NOT be used for profiling, marketing or advertising without transparent disclosure and easy opt-out.</strike>
+
+<strike>Assessment: ICA complaint (registration number)</strike>
+
+### ?. The vendor MUST allow the user to access his/her (personal) data, free of charge.
+
+Assessment: TODO
+
+### ?. The vendor MUST make clear to the user how his/her (personal) data is used.
+
+Assessment: TODO
+
+### ?. The vendor MUST provide a way for the user to delete his/her (personal) data, to be forgotten.
+
+Assessment: TODO
+
+### ?. The vendor MUST allow the user to migrate his/her (personal) data to another backend.
+
+Assessment: TODO
+
+### ?. The vendor MUST provide an easy way to the user to opt-out of direct marketing based on his/her (personal) data.
+
+Assessment: TODO
+
+### ?. The vendor MUST provide a way for the user to restrict the use of his/her (personal) data.
+
+Assessment: TODO
+
+### ?. The vendor MUST provide a way for the user to update his/her (personal) data.
+
+Assessment: TODO
+
+### ?. The vendor MUST let the user stop automated decisions being made about him/her, if there are legal or significant consequences.
+
+Assessment: TODO
 
 ## Interoperability
 
