@@ -173,7 +173,7 @@ Note: Openness is about open source, which is considered a simple way to reduce 
 
 ### 8. The vendor MAY publish the device firmware source code under an open source license.
 
-Assessment: The vendor submits links to a public source code repository or ZIP file. The source code is licensed with MIT License or Apache 2 or GPLv3 or at least a license compliant with the Open Source Definition (https://opensource.org/docs/osd).
+Assessment: The vendor submits links to a public source code repository or ZIP file. The source code is licensed with MIT License or Apache 2 or GPLv3 or at least a license compliant with the [Open Source Definition](https://opensource.org/docs/osd).
 
 Example: [TheThingsNetwork firmware](https://github.com/TheThingsNetwork/arduino-device-lib)
 
