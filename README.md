@@ -201,13 +201,19 @@ Example: TODO
 
 Assessment: The vendor submits links to user documentation explaining how to turn off the connection from the device to the backend.
 
+Example: TODO
+
 ### 13. The vendor MUST allow users to transfer ownership of the device.
 
 Assessment: The vendor submits links to user documentation explaining how to transfer ownership of a device to another user.
 
+Example: TODO
+
 ### 14. When ownership of the device is transferred, the new user MUST NOT have access to previous user's data.
 
 Assessment: The vendor submits links to video proof. The assessor collects user complaints.
+
+Example: TODO
 
 ### <strike>15. The vendor SHOULD allow users to export their data.</strike>
 
@@ -225,13 +231,19 @@ Example: Turning off a car's blackbox on the race track might lead to increased 
 
 Assessment: The vendor submits links to user documentation stating the expected service life of the connected product.
 
+Example: TODO
+
 ### 18. The vendor MUST ask permission from users before changing the terms of service.
 
 Assessment: The vendor submits proof that terms & conditions changes are communicated to users and their permission is sought explicitly.
 
+Example: TODO
+
 ### 19. The vendor MUST inform users about substantial firmware upgrades.
 
 Assessment: The vendor submits a link to a blog or feed or other public, auditable trail of firmware revisions.
+
+Example: TODO
 
 ## Security
 
@@ -318,6 +330,8 @@ Assessment: The vendor submits a link to a blog or feed or other public, auditab
 
     Assessment criteria: Device and/or backend has factory reset functionality ?
 
+    Example: TODO
+
 ### 28. The vendor MUST be clear about the expected lifetime of the service provided by the device and backend.
 
     Assessment criteria: Include on the packaging of the product and on the online presence of the vendor a clear statement of intended lifetime and support. Post-lifetime support should be clearly explained ( replacement part vendor list. An End of Life T&C’s and End of Life actions should be well defined - including in case of bankruptcy, takeover, etc.Should include ‘what happens to my data?’ and ‘what happens to my device(s)?’
@@ -326,17 +340,25 @@ Assessment: The vendor submits a link to a blog or feed or other public, auditab
 
     Assessment criteria: description of user support mechanisms online or on the on the packaging.
 
+    Example: TODO
+
 ### 12. The vendor SHOULD NOT degrade or change the current core functionality of the connected product over its lifetime.
 
     Assessment: Core functionality is declared once by the vendor and backed by submitting marketing materials. Compliance with the principle can be verified on audit or by users at any time by comparing the current functionality with the declared core functionality.
+
+    Example: TODO
 
 ### 30. The vendor SHOULD document any parts that a user or third party can repair using commonly accessible tools and skills.
 
     Assessment criteria: Publicly available instructions and in an accessible format. STL files should be made available if the piece is expected to be 3D printed.
 
+    Example: TODO
+
 ### 31. The vendor SHOULD supply spare parts on request during the lifecycle of the product.
 
     Assessment criteria: A clear and accessible form that a user can fill in to request these part should be included as part of the packaging or online presence of the vendor.
+
+    Example: TODO
 
 ### <strike>32. The vendor SHOULD be able to list the geographic regions involved in the supply chain.</strike>
 
