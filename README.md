@@ -87,9 +87,9 @@ Assessment: The vendor submits links to public documentation explaining how the 
 
 Example: TODO
 
-### ?. The vendor MUST provide a way for the user to delete the collected data, to be forgotten.
+### ?. The vendor MUST provide a way for the user to delete the collected data.
 
-Assessment: The vendor submits links to public documentation explaining how to delete collected data.
+Assessment: The vendor submits links to public documentation explaining how to delete collected data, to "be forgotten".
 
 Example: TODO
 
