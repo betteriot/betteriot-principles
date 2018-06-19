@@ -279,7 +279,7 @@ Example: TODO
 
 ## Lifecycle
 
-### 29. <strike>27.</strike> The vendor MUST allow users to factory reset the device.
+### <strike>27.</strike> 29. The vendor MUST allow users to factory reset the device.
 
 Assessment: The vendor submits a link to public user documentation showing how to factory reset the device.
 
