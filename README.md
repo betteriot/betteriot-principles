@@ -47,7 +47,7 @@ A _third party_ is everybody else than the vendor or the user.
 ## Assessment
 The assessment criteria below are intended to be "self-assessed but verifiable" and allow "verification through documentation" as specified in [this presentation](https://www.slideshare.net/peterbihr/towards-a-trustmark-for-iot-30-may-2018) by Peter Bihr / ThingsCon (CC BY-SA 4.0).
 
-To enable a central repository, assessment deliverables should be URL links to publicly accessible resources on the vendor website, including technical and user documentation, privacy and security policies, terms and conditions, and source code.
+To enable a central repository, assessment deliverables should be one or more URL links to publicly accessible resources on the vendor (or third party) website, including technical and user documentation, privacy and security policies, terms and conditions, and source code.
 
 ## Principles
 - [Privacy](#privacy)
@@ -77,49 +77,49 @@ Note: What does GDPR compliance mean for IoT? Connected products often collect d
 
 ### ?. The vendor MUST allow users to access their collected data, free of charge.
 
-Assessment: The vendor submits links to public documentation explaining how to export collected data, and a link to the respective section in terms & conditions.
+Assessment: The vendor submits a link to public documentation explaining how to export collected data, and a link to the respective section in terms & conditions.
 
 Example: TODO
 
 ### ?. The vendor MUST make clear to users how the collected data is used.
 
-Assessment: The vendor submits links to its privacy policy explaining how the collected data is used.
+Assessment: The vendor submits a link to its public privacy policy explaining how the collected data is used.
 
 Example: TODO
 
 ### ?. The vendor MUST allow users to delete their collected data.
 
-Assessment: The vendor submits links to public documentation explaining how to delete collected data, to "be forgotten".
+Assessment: The vendor submits a link to public documentation explaining how to delete collected data, to "be forgotten".
 
 Example: TODO
 
 ### ?. The vendor MUST allow users to migrate their collected data to another backend.
 
-Assessment: The vendor submits links to public documentation explaining how to export collected data, and a link to the respective section in terms & conditions.
+Assessment: The vendor submits a link to public documentation explaining how to export collected data, and a link to the respective section in terms & conditions.
 
 Example: TODO
 
 ### ?. The vendor MUST allow users to easily opt out of direct marketing based on their collected data.
 
-Assessment: The vendor submits links to public documentation explaining how to opt out of direct marketing based on the collected data.
+Assessment: The vendor submits a link to public documentation explaining how to opt out of direct marketing based on the collected data.
 
 Example: TODO
 
 ### ?. The vendor MUST allow users to restrict the use of their collected data.
 
-Assessment: The vendor submits links to public documentation explaining how to restrict the use of the collected data.
+Assessment: The vendor submits a link to public documentation explaining how to restrict the use of the collected data.
 
 Example: TODO
 
 ### ?. The vendor MUST allow users to update their collected data.
 
-Assessment: The vendor submits links to public documentation explaining how to update the collected data.
+Assessment: The vendor submits a link to public documentation explaining how to update the collected data.
 
 Example: TODO
 
 ### ?. The vendor MUST allow users to stop automated decisions being made, if there are personal legal or significant consequences.
 
-Assessment: The vendor submits links to public documentation explaining how to stop automated decisions and get a human to re-evaluate the decision.
+Assessment: The vendor submits a link to public documentation explaining how to stop automated decisions and get a human to re-evaluate the decision.
 
 Example: TODO
 
@@ -128,7 +128,7 @@ Note: Interoperability is about making it technically possible to use devices, b
 
 ### 4. The vendor SHOULD allow third parties to connect clients to its backend.
 
-Assessment: The vendor submits links to public documentation of the client-specific backend API.
+Assessment: The vendor submits a link to public documentation of the client-specific backend API.
 
 Example: [Safecast HTTP Client API](https://api.safecast.org/)
 
@@ -146,7 +146,7 @@ Example: Some client-specific backend APIs delay measurements they make availabl
 
 ### 5. The vendor MAY allow third parties to connect devices to its backend.
 
-Assessment: The vendor submits links to public documentation of the device-specific backend API.
+Assessment: The vendor submits a link to public documentation of the device-specific backend API.
 
 Example: [ThingSpeak MQTT Device API](https://ch.mathworks.com/help/thingspeak/publishtoachannelfeed.html)
 
@@ -158,7 +158,7 @@ Example: [ThingSpeak MQTT Device API](https://ch.mathworks.com/help/thingspeak/p
 
 ### 7. The vendor SHOULD allow third parties to communicate directly with its devices, without going through the backend.
 
-Assessment: The vendor submits links to public documentation of the device communication interface.
+Assessment: The vendor submits a link to public documentation of the device communication interface.
 
 Example: Generic BLE heart rate sensor
 
@@ -173,25 +173,25 @@ Note: Openness is about open source, which is considered a simple way to reduce 
 
 ### 8. The vendor MAY publish the device firmware source code under an open source license.
 
-Assessment: The vendor submits links to a public source code repository or ZIP file. The source code is licensed with MIT License or Apache 2 or GPLv3 or at least a license compliant with the [Open Source Definition](https://opensource.org/docs/osd).
+Assessment: The vendor submits a link to a public source code repository or ZIP file. The source code is licensed with MIT License or Apache 2 or GPLv3 or at least a license compliant with the [Open Source Definition](https://opensource.org/docs/osd).
 
 Example: [TheThingsNetwork firmware](https://github.com/TheThingsNetwork/arduino-device-lib)
 
 ### 9. The vendor MAY publish the device hardware designs under an open hardware license.
 
-Assessment: The vendor submits links to a public repository or ZIP file. Hardware design files may include but are not limited to schema files, PCB layouts, and any other materials that would support the recreation of the product by the user or a third party. The license is compliant with the [Open Source Hardware Definition](https://www.oshwa.org/definition/).
+Assessment: The vendor submits a link to a public repository or ZIP file. Hardware design files may include but are not limited to schema files, PCB layouts, and any other materials that would support the recreation of the product by the user or a third party. The license is compliant with the [Open Source Hardware Definition](https://www.oshwa.org/definition/).
 
 Example: [Safecast devices](https://github.com/Safecast/General/wiki/Safecast-Devices)
 
 ### 10. The vendor MAY publish the backend source code under an open source license.
 
-Assessment: The vendor submits links to a public repository or ZIP file. The source code is licensed with Apache 2 or AGPLv3 or at least a license compliant with the [Open Source Definition](https://opensource.org/docs/osd).
+Assessment: The vendor submits a link to a public repository or ZIP file. The source code is licensed with Apache 2 or AGPLv3 or at least a license compliant with the [Open Source Definition](https://opensource.org/docs/osd).
 
 Example: [TheThingsNetwork backend source code](https://github.com/TheThingsNetwork/ttn)
 
 ### ?. The vendor MAY publish client source code under an open source license.
 
-Assessment: The vendor submits links to a public source code repository or ZIP file. The source code is licensed with MIT License or Apache 2 or GPLv3 or at least a license compliant with the [Open Source Definition](https://opensource.org/docs/osd).
+Assessment: The vendor submits a link to a public source code repository or ZIP file. The source code is licensed with MIT License or Apache 2 or GPLv3 or at least a license compliant with the [Open Source Definition](https://opensource.org/docs/osd).
 
 Example: TODO
 
@@ -199,19 +199,19 @@ Example: TODO
 
 ### 11. The vendor SHOULD allow users to turn off the connection from the device to the backend.
 
-Assessment: The vendor submits links to user documentation explaining how to turn off the connection from the device to the backend.
+Assessment: The vendor submits a link to user documentation explaining how to turn off the connection from the device to the backend.
 
 Example: TODO
 
 ### 13. The vendor MUST allow users to transfer ownership of the device.
 
-Assessment: The vendor submits links to user documentation explaining how to transfer ownership of a device to another user.
+Assessment: The vendor submits a link to public user documentation explaining how to transfer ownership of a device to another user.
 
 Example: TODO
 
 ### 14. When ownership of the device is transferred, the new user MUST NOT have access to previous user's data.
 
-Assessment: The vendor submits links to video proof. The assessor collects user complaints.
+Assessment: The vendor submits a link to video proof. The assessor collects user complaints.
 
 Example: TODO
 
@@ -223,7 +223,7 @@ Example: TODO
 
 ### 16. The vendor MUST make explicit the legal implications of substantially changing device usage.
 
-Assessment: The vendor submits links to user documentation explaining the (secondary) legal implications of changing how the device is used, or taking it offline.
+Assessment: The vendor submits a link to public user documentation explaining the (secondary) legal implications of changing how the device is used, or taking it offline.
 
 Example: Turning off a car's blackbox on the race track might lead to increased insurance fees.
 
@@ -328,7 +328,7 @@ Example: TODO
 
 ### 27. The vendor MUST allow users to factory reset the device.
 
-Assessment: The vendor submits links to public user documentation showing how to factory reset the device.
+Assessment: The vendor submits a link to public user documentation showing how to factory reset the device.
 
 Example: TODO
 
