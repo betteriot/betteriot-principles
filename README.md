@@ -199,7 +199,7 @@ Example: TODO
 
 ### 11. The vendor SHOULD allow users to turn off the connection from the device to the backend.
 
-Assessment: The vendor submits The dependency label is included on product or packaging as well as the vendor’s online presence. Use our suggested labelling system.
+Assessment: The vendor submits links to user documentation explaining how to turn off the connection from the device to the backend.
 
 ### 13. The vendor MUST allow users to transfer ownership of the device.
 
