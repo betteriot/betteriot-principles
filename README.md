@@ -83,7 +83,7 @@ Example: TODO
 
 ### ?. The vendor MUST make clear to users how the collected data is used.
 
-Assessment: The vendor submits links to public documentation explaining how the collected data is used.
+Assessment: The vendor submits links to its GDPR compliant privacy policy explaining how the collected data is used.
 
 Example: TODO
 
