@@ -197,7 +197,7 @@ Example: TODO
 
 ## Ownership
 
-### 17<strike>11</strike>. The vendor SHOULD allow users to turn off the connection from the device to the backend.
+### <strike>11.</strike> 17. The vendor SHOULD allow users to turn off the connection from the device to the backend.
 
 Assessment: The vendor submits a link to user documentation explaining how to turn off the connection from the device to the backend.
 
