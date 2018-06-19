@@ -207,7 +207,7 @@ Assessment: The vendor submits links to user documentation explaining how to tra
 
 ### 14. When ownership of the device is transferred, the new user MUST NOT have access to previous user's data.
 
-Assessment: TODO
+Assessment: The vendor submits links to video proof. The assessor collects user complaints.
 
 ### <strike>15. The vendor SHOULD offer users the ability to export their data.</strike>
 
