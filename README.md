@@ -59,7 +59,7 @@ To enable a central repository, assessment deliverables should be URL links to p
 - [Lifecycle](#lifecycle)
 
 ## Privacy
-Note: Connected products often collect data through device sensors or by logging user commands. The distinction between personal user data and environmental data becomes fluent. All data is assumed to be personal.
+Note: What does GDPR compliance mean for IoT? Connected products often collect data through device sensors or by logging user commands. The distinction between personal user data and environmental data becomes fluent. All data is assumed to be personal.
 
 ### <strike>1. The connected product the vendor supplies MUST be GDPR compliant.</strike>
 
@@ -83,7 +83,7 @@ Example: TODO
 
 ### ?. The vendor MUST make clear to users how the collected data is used.
 
-Assessment: The vendor submits links to its GDPR compliant privacy policy explaining how the collected data is used.
+Assessment: The vendor submits links to its privacy policy explaining how the collected data is used.
 
 Example: TODO
 
