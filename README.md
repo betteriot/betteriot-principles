@@ -47,7 +47,7 @@ A _third party_ is everybody else than the vendor or the user.
 ## Assessment
 The assessment criteria below are intended to be "self-assessed but verifiable" and allow "verification through documentation" as specified in [this presentation](https://www.slideshare.net/peterbihr/towards-a-trustmark-for-iot-30-may-2018) by Peter Bihr / ThingsCon (CC BY-SA 4.0).
 
-To enable a central repository, assessment deliverables should be URL links to publicly accessible resources on the vendor website, including technical and user documentation, privacy and security policies, terms and source code.
+To enable a central repository, assessment deliverables should be URL links to publicly accessible resources on the vendor website, including technical and user documentation, privacy and security policies, terms and conditions, and source code.
 
 ## Principles
 - [Privacy](#privacy)
@@ -197,11 +197,11 @@ Example: TODO
 
 ## Ownership
 
-### 11. The vendor SHOULD make it possible for customers to turn off the connection to the backend, this might mean that functionality of the device is reduced.
+### 11. The vendor SHOULD allow users to turn off the connection from the device to the backend.
 
-    Assessment: The vendor submits The dependency label is included on product or packaging as well as the vendor’s online presence. Use our suggested labelling system.
+Assessment: The vendor submits The dependency label is included on product or packaging as well as the vendor’s online presence. Use our suggested labelling system.
 
-### 13. The vendor MUST give users the ability to transfer ownership of the device.
+### 13. The vendor MUST allow users to transfer ownership of the device.
 
     Assessment criteria: TODO
 
@@ -223,13 +223,13 @@ Example: TODO
 
     Assessment criteria: Include on product or packaging. Use our labelling system.
 
-### 18. If the vendor wants to change the length of the term of service, it MUST first ask permission from the customer.
+### 18. If the vendor wants to change the length of the term of service, it MUST first ask permission from the user.
 
-    Assessment criteria: Terms & conditions changes are communicated to customers and their permission is sought explicitly.
+    Assessment criteria: Terms & conditions changes are communicated to users and their permission is sought explicitly.
 
 ### 19. The vendor MUST inform the user about firmware upgrades.
 
-    Assessment criteria: An automated message should be generated or an alert to remind customers how to implement a change in firmware.
+    Assessment criteria: An automated message should be generated or an alert to remind users how to implement a change in firmware.
 
 ## Security
 
@@ -320,21 +320,21 @@ Example: TODO
 
     Assessment criteria: Include on the packaging of the product and on the online presence of the vendor a clear statement of intended lifetime and support. Post-lifetime support should be clearly explained ( replacement part vendor list. An End of Life T&C’s and End of Life actions should be well defined - including in case of bankruptcy, takeover, etc.Should include ‘what happens to my data?’ and ‘what happens to my device(s)?’
 
-### 29. The vendor MUST be clear about the levels of customer support provided during the lifetime of the product.
+### 29. The vendor MUST be clear about the levels of user support provided during the lifetime of the product.
 
-    Assessment criteria: description of customer support mechanisms online or on the on the packaging.
+    Assessment criteria: description of user support mechanisms online or on the on the packaging.
 
 ### 12. The vendor SHOULD NOT degrade or change the current core functionality of the connected product over its lifetime.
 
     Assessment: Core functionality is declared once by the vendor and backed by submitting marketing materials. Compliance with the principle can be verified on audit or by users at any time by comparing the current functionality with the declared core functionality.
 
-### 30. The vendor SHOULD document any parts that a customer can repair using commonly accessible tools and skills.
+### 30. The vendor SHOULD document any parts that a user or third party can repair using commonly accessible tools and skills.
 
     Assessment criteria: Publicly available instructions and in an accessible format. STL files should be made available if the piece is expected to be 3D printed.
 
 ### 31. The vendor SHOULD supply spare parts on request during the lifecycle of the product.
 
-    Assessment criteria: A clear and accessible form that a customer can fill in to request these part should be included as part of the packaging or online presence of the vendor.
+    Assessment criteria: A clear and accessible form that a user can fill in to request these part should be included as part of the packaging or online presence of the vendor.
 
 ### <strike>32. The vendor SHOULD be able to list the geographic regions involved in the supply chain.</strike>
 
