@@ -87,7 +87,7 @@ Assessment: The vendor submits links to public documentation explaining how the 
 
 Example: TODO
 
-### ?. The vendor MUST provide a way for the user to delete the collected data.
+### ?. The vendor MUST allow the user to delete the collected data.
 
 Assessment: The vendor submits links to public documentation explaining how to delete collected data, to "be forgotten".
 
@@ -99,25 +99,25 @@ Assessment: The vendor submits links to public documentation explaining how to e
 
 Example: TODO
 
-### ?. The vendor MUST provide an easy way to the user to opt out of direct marketing based on the collected data.
+### ?. The vendor MUST allow the user to easily opt out of direct marketing based on the collected data.
 
 Assessment: The vendor submits links to public documentation explaining how to opt out of direct marketing based on the collected data.
 
 Example: TODO
 
-### ?. The vendor MUST provide a way for the user to restrict the use of the collected data.
+### ?. The vendor MUST allow the user to restrict the use of the collected data.
 
 Assessment: The vendor submits links to public documentation explaining how to restrict the use of the collected data.
 
 Example: TODO
 
-### ?. The vendor MUST provide a way for the user to update the collected data.
+### ?. The vendor MUST allow the user to update the collected data.
 
 Assessment: The vendor submits links to public documentation explaining how to update the collected data.
 
 Example: TODO
 
-### ?. The vendor MUST let the user stop automated decisions being made, if there are personal legal or significant consequences.
+### ?. The vendor MUST allow the user to stop automated decisions being made, if there are personal legal or significant consequences.
 
 Assessment: The vendor submits links to public documentation explaining how to stop automated decisions and get a human to re-evaluate the decision.
 
