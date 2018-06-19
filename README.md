@@ -346,13 +346,13 @@ Example: TODO
 
 ### 12. The vendor SHOULD NOT degrade or change the core functionality of the connected product over its lifetime.
 
-Assessment: Core functionality is declared once by the vendor and backed by submitting marketing materials. Compliance with the principle can be verified on audit or by users at any time by comparing the current functionality with the declared core functionality.
+Assessment: Core functionality is declared once by the vendor and backed by submitting a link to public marketing materials. Compliance with the principle can be verified on audit or by users at any time by comparing the current functionality with the declared core functionality.
 
 Example: TODO
 
 ### 30. The vendor SHOULD document any parts that a user can repair using common tools and skills.
 
-Assessment: The vendor submits a link to public user documentation. Design files should be made available if the piece is expected to be 3D-printed.
+Assessment: The vendor submits a link to public user documentation including a visual overview of how repairs can be done. Design files should be made available if the piece is expected to be 3D-printed.
 
 Example: TODO
 
