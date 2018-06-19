@@ -75,49 +75,49 @@ Note: Connected products often collect data through device sensors or by logging
 
 <strike>Assessment: ICA complaint (registration number)</strike>
 
-### ?. The vendor MUST allow the user to access the collected data, free of charge.
+### ?. The vendor MUST allow users to access their collected data, free of charge.
 
 Assessment: The vendor submits links to public documentation explaining how to export collected data, and a link to the respective section in terms & conditions.
 
 Example: TODO
 
-### ?. The vendor MUST make clear to the user how the collected data is used.
+### ?. The vendor MUST make clear to users how the collected data is used.
 
 Assessment: The vendor submits links to public documentation explaining how the collected data is used.
 
 Example: TODO
 
-### ?. The vendor MUST allow the user to delete the collected data.
+### ?. The vendor MUST allow users to delete their collected data.
 
 Assessment: The vendor submits links to public documentation explaining how to delete collected data, to "be forgotten".
 
 Example: TODO
 
-### ?. The vendor MUST allow the user to migrate the collected data to another backend.
+### ?. The vendor MUST allow users to migrate their collected data to another backend.
 
 Assessment: The vendor submits links to public documentation explaining how to export collected data, and a link to the respective section in terms & conditions.
 
 Example: TODO
 
-### ?. The vendor MUST allow the user to easily opt out of direct marketing based on the collected data.
+### ?. The vendor MUST allow users to easily opt out of direct marketing based on their collected data.
 
 Assessment: The vendor submits links to public documentation explaining how to opt out of direct marketing based on the collected data.
 
 Example: TODO
 
-### ?. The vendor MUST allow the user to restrict the use of the collected data.
+### ?. The vendor MUST allow users to restrict the use of their collected data.
 
 Assessment: The vendor submits links to public documentation explaining how to restrict the use of the collected data.
 
 Example: TODO
 
-### ?. The vendor MUST allow the user to update the collected data.
+### ?. The vendor MUST allow users to update their collected data.
 
 Assessment: The vendor submits links to public documentation explaining how to update the collected data.
 
 Example: TODO
 
-### ?. The vendor MUST allow the user to stop automated decisions being made, if there are personal legal or significant consequences.
+### ?. The vendor MUST allow users to stop automated decisions being made, if there are personal legal or significant consequences.
 
 Assessment: The vendor submits links to public documentation explaining how to stop automated decisions and get a human to re-evaluate the decision.
 
