@@ -140,7 +140,7 @@ Example: [Safecast HTTP Client API](https://api.safecast.org/)
 
 ### 6. The vendor SHOULD grant third party clients the same functional scope on the backend as its own clients.
 
-Assessment: The assessor collects complaints (e.g. including screenshots or other "proof") filed by third parties.
+Assessment: The assessor collects complaints, including screenshots or video "proof", filed by users or third parties.
 
 Example: Some client-specific backend APIs delay measurements they make available to third party clients, preventing them from making real-time decisions.
 
