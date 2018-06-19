@@ -209,7 +209,7 @@ Assessment: The vendor submits links to user documentation explaining how to tra
 
 Assessment: The vendor submits links to video proof. The assessor collects user complaints.
 
-### <strike>15. The vendor SHOULD offer users the ability to export their data.</strike>
+### <strike>15. The vendor SHOULD allow users to export their data.</strike>
 
 <strike>Assessment criteria: TODO</strike>
 
@@ -312,7 +312,7 @@ Assessment: The vendor submits links to video proof. The assessor collects user 
 
 ## Lifecycle
 
-### 27. The vendor MUST offer the ability for a user to factory reset the device.
+### 27. The vendor MUST allow a user to factory reset the device.
 
     Assessment criteria: Device and/or backend has factory reset functionality ?
 
