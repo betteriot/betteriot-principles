@@ -227,9 +227,9 @@ Assessment: The vendor submits links to user documentation explaining the (secon
 
 Example: Turning off a car's blackbox on the race track might lead to increased insurance fees.
 
-### 17. The vendor MUST make explicit for how long the connected product is expected to work.
+### 17. The vendor MUST make explicit the expected duration of the terms of service.
 
-Assessment: The vendor submits links to user documentation stating the expected service life of the connected product.
+Assessment: The vendor submits a link to the terms of service which have to include a "best before" expiration date.
 
 Example: TODO
 
@@ -326,11 +326,11 @@ Example: TODO
 
 ## Lifecycle
 
-### 27. The vendor MUST allow a user to factory reset the device.
+### 27. The vendor MUST allow users to factory reset the device.
 
-    Assessment criteria: Device and/or backend has factory reset functionality ?
+Assessment: The vendor submits links to public user documentation showing how to factory reset the device.
 
-    Example: TODO
+Example: TODO
 
 ### 28. The vendor MUST be clear about the expected lifetime of the service provided by the device and backend.
 
