@@ -203,11 +203,11 @@ Assessment: The vendor submits The dependency label is included on product or pa
 
 ### 13. The vendor MUST allow users to transfer ownership of the device.
 
-    Assessment criteria: TODO
+Assessment: The vendor submits links to user documentation explaining how to transfer ownership of a device to another user.
 
 ### 14. When ownership of the device is transferred, the new user MUST NOT have access to previous user's data.
 
-    Assessment criteria: TODO
+Assessment: TODO
 
 ### <strike>15. The vendor SHOULD offer users the ability to export their data.</strike>
 
