@@ -332,33 +332,35 @@ Assessment: The vendor submits a link to public user documentation showing how t
 
 Example: TODO
 
-### 28. The vendor MUST be clear about the expected lifetime of the service provided by the device and backend.
+### 28. The vendor MUST be clear about the expected service lifetime of the connected product.
 
-    Assessment criteria: Include on the packaging of the product and on the online presence of the vendor a clear statement of intended lifetime and support. Post-lifetime support should be clearly explained ( replacement part vendor list. An End of Life T&C’s and End of Life actions should be well defined - including in case of bankruptcy, takeover, etc.Should include ‘what happens to my data?’ and ‘what happens to my device(s)?’
+Assessment: Include on the packaging of the product and on the online presence of the vendor a clear statement of intended lifetime and support. Post-lifetime support should be clearly explained ( replacement part vendor list. An End of Life T&C’s and End of Life actions should be well defined - including in case of bankruptcy, takeover, etc. Should include ‘what happens to my data?’ and ‘what happens to my device(s)?’
 
-### 29. The vendor MUST be clear about the levels of user support provided during the lifetime of the product.
+Example: TODO
 
-    Assessment criteria: description of user support mechanisms online or on the on the packaging.
+### 29. The vendor MUST be clear about the levels of user support provided during the lifetime of the connected product.
 
-    Example: TODO
+Assessment: description of user support mechanisms online or on the on the packaging.
 
-### 12. The vendor SHOULD NOT degrade or change the current core functionality of the connected product over its lifetime.
+Example: TODO
 
-    Assessment: Core functionality is declared once by the vendor and backed by submitting marketing materials. Compliance with the principle can be verified on audit or by users at any time by comparing the current functionality with the declared core functionality.
+### 12. The vendor SHOULD NOT degrade or change the core functionality of the connected product over its lifetime.
 
-    Example: TODO
+Assessment: Core functionality is declared once by the vendor and backed by submitting marketing materials. Compliance with the principle can be verified on audit or by users at any time by comparing the current functionality with the declared core functionality.
 
-### 30. The vendor SHOULD document any parts that a user or third party can repair using commonly accessible tools and skills.
+Example: TODO
 
-    Assessment criteria: Publicly available instructions and in an accessible format. STL files should be made available if the piece is expected to be 3D printed.
+### 30. The vendor SHOULD document any parts that a user can repair using common tools and skills.
 
-    Example: TODO
+Assessment: The vendor submits a link to public instructions. Design files should be made available if the piece is expected to be 3D printed.
+
+Example: TODO
 
 ### 31. The vendor SHOULD supply spare parts on request during the lifecycle of the product.
 
-    Assessment criteria: A clear and accessible form that a user can fill in to request these part should be included as part of the packaging or online presence of the vendor.
+Assessment: A clear and accessible form that a user can fill in to request these part should be included as part of the packaging or online presence of the vendor.
 
-    Example: TODO
+Example: TODO
 
 ### <strike>32. The vendor SHOULD be able to list the geographic regions involved in the supply chain.</strike>
 
