@@ -340,7 +340,7 @@ Example: TODO
 
 ### 29. The vendor MUST be clear about the levels of user support provided during the lifetime of the connected product.
 
-Assessment: description of user support mechanisms online or on the on the packaging.
+Assessment: The vendor submits a link to a public description of user support mechanisms online or on the on the packaging.
 
 Example: TODO
 
@@ -352,13 +352,13 @@ Example: TODO
 
 ### 30. The vendor SHOULD document any parts that a user can repair using common tools and skills.
 
-Assessment: The vendor submits a link to public instructions. Design files should be made available if the piece is expected to be 3D printed.
+Assessment: The vendor submits a link to public user documentation. Design files should be made available if the piece is expected to be 3D-printed.
 
 Example: TODO
 
 ### 31. The vendor SHOULD supply spare parts on request during the lifecycle of the product.
 
-Assessment: A clear and accessible form that a user can fill in to request these part should be included as part of the packaging or online presence of the vendor.
+Assessment: A clear and accessible form that a user can fill in to request these parts should be included as part of the packaging or online presence of the vendor.
 
 Example: TODO
 
