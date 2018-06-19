@@ -156,7 +156,7 @@ Example: [ThingSpeak MQTT Device API](https://ch.mathworks.com/help/thingspeak/p
     - Data format: ASCII, field1=T_VALUE&field2=H_VALUE
     - Data model: channels, measurements, e.g. temperature & humidity
 
-### 7. The vendor SHOULD allow third parties to communicate directly with its devices without going through the backend.
+### 7. The vendor SHOULD allow third parties to communicate directly with its devices, without going through the backend.
 
 Assessment: The vendor submits links to public documentation of the device communication interface.
 
@@ -215,21 +215,23 @@ Assessment: The vendor submits links to video proof. The assessor collects user 
 
 ## Transparency
 
-### 16. The vendor MUST make explicit to the user what the implications of substantially changing usage of the device are.
+### 16. The vendor MUST make explicit the legal implications of substantially changing device usage.
 
-    Assessment criteria: Include on product or packaging. Use our labelling system.
+Assessment: The vendor submits links to user documentation explaining the (secondary) legal implications of changing how the device is used, or taking it offline.
 
-### 17. The vendor MUST be explicit as to the expected duration of terms of service
+Example: Turning off a car's blackbox on the race track might lead to increased insurance fees.
 
-    Assessment criteria: Include on product or packaging. Use our labelling system.
+### 17. The vendor MUST make explicit for how long the connected product is expected to work.
 
-### 18. If the vendor wants to change the length of the term of service, it MUST first ask permission from the user.
+Assessment: The vendor submits links to user documentation stating the expected service life of the connected product.
 
-    Assessment criteria: Terms & conditions changes are communicated to users and their permission is sought explicitly.
+### 18. The vendor MUST ask permission from users before changing the terms of service.
 
-### 19. The vendor MUST inform the user about firmware upgrades.
+Assessment: The vendor submits proof that terms & conditions changes are communicated to users and their permission is sought explicitly.
 
-    Assessment criteria: An automated message should be generated or an alert to remind users how to implement a change in firmware.
+### 19. The vendor MUST inform users about substantial firmware upgrades.
+
+Assessment: The vendor submits a link to a blog or feed or other public, auditable trail of firmware revisions.
 
 ## Security
 
