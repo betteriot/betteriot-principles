@@ -271,45 +271,39 @@ Assessment: Ensure pen-test demonstrates the security of the device and its back
 
 Example: TODO
 
-### 28. The vendor MUST offer security support for the entire lifetime of the connected product.
-
-Assessment: TODO
-
-Example: TODO
-
 ## Lifecycle
 
-### <strike>27.</strike> 29. The vendor MUST allow users to factory reset the device.
+### <strike>27.</strike> 28. The vendor MUST allow users to factory reset the device.
 
 Assessment: The vendor submits a link to public user documentation showing how to factory reset the device.
 
 Example: TODO
 
-### <strike>28.</strike> 30. The vendor MUST be clear about the expected service lifetime of the connected product.
+### <strike>28.</strike> 29. The vendor MUST be clear about the expected service lifetime of the connected product.
 
 Assessment: Include on the packaging of the product and on the online presence of the vendor a clear statement of intended lifetime and support. Post-lifetime support should be clearly explained ( replacement part vendor list. An End of Life T&C’s and End of Life actions should be well defined - including in case of bankruptcy, takeover, etc. Should include ‘what happens to my data?’ and ‘what happens to my device(s)?’
 
 Example: TODO
 
-### <strike>29.</strike> 31. The vendor MUST be clear about the levels of user support provided during the lifetime of the connected product.
+### <strike>29.</strike> 30. The vendor MUST be clear about the levels of user support provided during the lifetime of the connected product.
 
 Assessment: The vendor submits a link to a public description of user support mechanisms online or on the on the packaging.
 
 Example: TODO
 
-### <strike>12.</strike> 32. The vendor SHOULD NOT degrade or change the core functionality of the connected product over its lifetime.
+### <strike>12.</strike> 31. The vendor SHOULD NOT degrade or change the core functionality of the connected product over its lifetime.
 
 Assessment: Core functionality is declared once by the vendor and backed by submitting a link to public marketing materials. Compliance with the principle can be verified on audit or by users at any time by comparing the current functionality with the declared core functionality.
 
 Example: TODO
 
-### <strike>30.</strike> 33. The vendor SHOULD document any parts that a user can repair using common tools and skills.
+### <strike>30.</strike> 32. The vendor SHOULD document any parts that a user can repair using common tools and skills.
 
 Assessment: The vendor submits a link to public user documentation including a visual overview of how repairs can be done. Design files should be made available if the piece is expected to be 3D-printed.
 
 Example: TODO
 
-### <strike>31.</strike> 34. The vendor SHOULD supply spare parts on request during the lifecycle of the product.
+### <strike>31.</strike> 33. The vendor SHOULD supply spare parts on request during the lifecycle of the product.
 
 Assessment: A clear and accessible form that a user can fill in to request these parts should be included as part of the packaging or online presence of the vendor.
 
