@@ -261,13 +261,13 @@ Example: TODO
 
 ### 26. The vendor SHOULD implement security by default for the connected product.
 
-Assessment: User need to change the password at first run, no unencrypted communication, no unneeded open service.
+Assessment: Users need to change the password at first run, no unencrypted communication, no unneeded open service.
 
 Example: TODO
 
 ### 27. The vendor MUST assess the risk of well known IoT threats on the connected product.
 
-Assessment: Ensure pen-test demonstrates the security of the device and its backend (OWASP Top 10, secure backend).
+Assessment: The vendor submits a risk assessment of the security of the device and its backend (OWASP Top 10, secure backend).
 
 Example: TODO
 
