@@ -265,7 +265,7 @@ Assessment: User need to change the password at first run, no unencrypted commun
 
 Example: TODO
 
-### 27. The vendor MUST perform a risk assessment about well known IoT threats on the connected product.
+### 27. The vendor MUST assess the risk of well known IoT threats on the connected product.
 
 Assessment: Ensure pen-test demonstrates the security of the device and its backend (OWASP Top 10, secure backend).
 
@@ -337,4 +337,4 @@ Lifecycle: Alasdair Allan (@aallan), Chris Adams (@mrchrisadams), Adrian McEwen 
 
 Berlin March 2018 edit by: Alasdair Allan (@aallan), Anthony James Munns (@bitshiftmask), Albrecht Kurze (@AlbrechtKurze), Thomas Amberg (@tamberg), Chris Adams (@mrchrisadams), Alexandra Deschamps-Sonsino (@iotwatch)
 
-London June 2018 edit by: Alexandra Deschamps-Sonsino (@iotwatch), Thomas Amberg (@tamberg), @Ignius_IoT, Laura James (@LaurieJ), Albrecht Kurze (@AlbrechtKurze), Viktor Petersson (@vpetersson), Alasdair Allan (@aallan), Duncan Wilson (@djdunc), Dom Guinard (@domguinard), Geusseppe Gonzalez (@GeuseppeGC), Dries De Roeck (@driesderoeck), Konrad Komorowski, Alison Powell (@a_b_powell), Mark (@ukmoose), Louise Hugen (@louisehugen), Funda Ustek-Spilda (@fundaustek), Alex Kosenkov
+London June 2018 edit by: Alexandra Deschamps-Sonsino (@iotwatch), Thomas Amberg (@tamberg), @Ignius_IoT, Laura James (@LaurieJ), Albrecht Kurze (@AlbrechtKurze), Viktor Petersson (@vpetersson), Alasdair Allan (@aallan), Duncan Wilson (@djdunc), Dom Guinard (@domguinard), Geusseppe Gonzalez (@GeuseppeGC), Dries De Roeck (@driesderoeck), Konrad Komorowski, Alison Powell (@a_b_powell), Mark (@ukmoose), Louise Hugen (@louisehugen), Funda Ustek-Spilda (@fundaustek), Alex Kosenkov, Cédric Lévy-Bencheton (@clevybencheton)
