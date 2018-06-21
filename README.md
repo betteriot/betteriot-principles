@@ -247,7 +247,7 @@ Example: TODO
 
 ## Security
 
-### 24. The vendor MUST implement security in its processes.
+### 24. The vendor MUST implement security in its business processes.
 
 Assessment: Demonstrate training, regular security assessment, security requirements for their suppliers, threat intelligence. Provide a security@company.com email contact with quick response.
 
