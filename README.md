@@ -249,7 +249,7 @@ Example: TODO
 
 ### 24. The vendor MUST implement security in its processes.
 
-Assessment: Demonstrate training, regular security assessment, security requirements for their suppliers, threat intelligence.
+Assessment: Demonstrate training, regular security assessment, security requirements for their suppliers, threat intelligence. Provide a security@company.com email contact with quick response.
 
 Example: TODO
 
