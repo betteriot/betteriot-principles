@@ -61,31 +61,17 @@ To enable a central repository, assessment deliverables should be one or more UR
 ## Privacy
 Note: What does GDPR compliance mean for IoT? Connected products often collect data through device sensors or by logging user commands. The distinction between personal user data and environmental data becomes fluent. All data is assumed to be personal.
 
-### <strike>1. The connected product the vendor supplies MUST be GDPR compliant.</strike>
-
-<strike>Assessment: GDPR policy is published on the vendor website / a simple checklist is completed. Use our checklist.</strike>
-
-<strike>Example: [GDPR for things](https://www.slideshare.net/sasvangent/gdpr-for-things-thingscon-amsterdam-2017/1)</strike>
-
-### <strike>2. The vendor MUST NOT sell user data without consent.</strike>
-
-<strike>Assessment: TODO</strike>
-
-### <strike>3. User data MUST NOT be used for profiling, marketing or advertising without transparent disclosure and easy opt-out.</strike>
-
-<strike>Assessment: ICA complaint (registration number)</strike>
-
 ### 1. The vendor MUST allow users to access their collected data, free of charge.
 
 Assessment: The vendor submits a link to public documentation explaining how to export collected data, and a link to the respective section in terms & conditions.
 
-Example: TODO
+Example: [GDPR for things](https://www.slideshare.net/sasvangent/gdpr-for-things-thingscon-amsterdam-2017/1)
 
 ### 2. The vendor MUST make clear to users how the collected data is used.
 
 Assessment: The vendor submits a link to its public privacy policy explaining how the collected data is used.
 
-Example: TODO
+Example: [Arduino privacy policy](https://www.arduino.cc/en/Main/PrivacyPolicy/)
 
 ### 3. The vendor MUST allow users to delete their collected data.
 
@@ -126,7 +112,7 @@ Example: TODO
 ## Interoperability
 Note: Interoperability is about making it technically possible to use devices, backends and clients of the vendor with those of a third party. Interoperability does not imply unrestricted access to user data.
 
-### <strike>4.</strike> 9. The vendor SHOULD allow third parties to connect clients to its backend.
+### 9. The vendor SHOULD allow third parties to connect clients to its backend.
 
 Assessment: The vendor submits a link to public documentation of the client-specific backend API.
 
@@ -138,13 +124,13 @@ Example: [Safecast HTTP Client API](https://api.safecast.org/)
     - Data format: JSON, e.g. Measurement {"value":47.0,"unit":"cpm","captured_at":"2011-04-23T21:53:03.000Z","latitude":35.640968333333,"longitude":139.72069833333}
     - Data model: users, measurements, devices
 
-### <strike>6.</strike> 10. The vendor SHOULD grant third party clients the same functional scope on the backend as its own clients.
+### 10. The vendor SHOULD grant third party clients the same functional scope on the backend as its own clients.
 
 Assessment: The assessor collects complaints, including screenshots or video "proof", filed by users or third parties.
 
 Example: Some client-specific backend APIs delay measurements they make available to third party clients, preventing them from making real-time decisions.
 
-### <strike>5.</strike> 11. The vendor MAY allow third parties to connect devices to its backend.
+### 11. The vendor MAY allow third parties to connect devices to its backend.
 
 Assessment: The vendor submits a link to public documentation of the device-specific backend API.
 
@@ -156,7 +142,7 @@ Example: [ThingSpeak MQTT Device API](https://ch.mathworks.com/help/thingspeak/p
     - Data format: ASCII, field1=T_VALUE&field2=H_VALUE
     - Data model: channels, measurements, e.g. temperature & humidity
 
-### <strike>7.</strike> 12. The vendor SHOULD allow third parties to communicate directly with its devices, without going through the backend.
+### 12. The vendor SHOULD allow third parties to communicate directly with its devices, without going through the backend.
 
 Assessment: The vendor submits a link to public documentation of the device communication interface.
 
@@ -171,19 +157,19 @@ Example: Generic BLE heart rate sensor
 ## Openness
 Note: Openness is about open source, which is considered a simple way to reduce dependencies between a vendor and a user and build trust between them. Openness does not imply unrestricted access to user data.
 
-### <strike>8.</strike> 13. The vendor MAY publish the device firmware source code under an open source license.
+### 13. The vendor MAY publish the device firmware source code under an open source license.
 
 Assessment: The vendor submits a link to a public source code repository or ZIP file. The source code is licensed with MIT License or Apache 2 or GPLv3 or at least a license compliant with the [Open Source Definition](https://opensource.org/docs/osd).
 
 Example: [TheThingsNetwork firmware](https://github.com/TheThingsNetwork/arduino-device-lib)
 
-### <strike>9.</strike> 14. The vendor MAY publish the device hardware designs under an open hardware license.
+### 14. The vendor MAY publish the device hardware designs under an open hardware license.
 
 Assessment: The vendor submits a link to a public repository or ZIP file. Hardware design files may include but are not limited to schema files, PCB layouts, and any other materials that would support the recreation of the product by the user or a third party. The license is compliant with the [Open Source Hardware Definition](https://www.oshwa.org/definition/).
 
 Example: [Safecast devices](https://github.com/Safecast/General/wiki/Safecast-Devices)
 
-### <strike>10.</strike> 15. The vendor MAY publish the backend source code under an open source license.
+### 15. The vendor MAY publish the backend source code under an open source license.
 
 Assessment: The vendor submits a link to a public repository or ZIP file. The source code is licensed with Apache 2 or AGPLv3 or at least a license compliant with the [Open Source Definition](https://opensource.org/docs/osd).
 
@@ -197,49 +183,45 @@ Example: TODO
 
 ## Ownership
 
-### <strike>11.</strike> 17. The vendor SHOULD allow users to turn off the connection from the device to the backend.
+### 17. The vendor SHOULD allow users to turn off the connection from the device to the backend.
 
 Assessment: The vendor submits a link to user documentation explaining how to turn off the connection from the device to the backend.
 
 Example: TODO
 
-### <strike>13.</strike> 18. The vendor MUST allow users to transfer ownership of the device.
+### 18. The vendor MUST allow users to transfer ownership of the device.
 
 Assessment: The vendor submits a link to public user documentation explaining how to transfer ownership of a device to another user.
 
 Example: TODO
 
-### <strike>14.</strike> 19. When ownership of the device is transferred, the new user MUST NOT have access to previous user's data.
+### 19. When ownership of the device is transferred, the new user MUST NOT have access to previous user's data.
 
 Assessment: The vendor submits a link to video proof. The assessor collects user complaints.
 
 Example: TODO
 
-### <strike>15. The vendor SHOULD allow users to export their data.</strike>
-
-<strike>Assessment criteria: TODO</strike>
-
 ## Transparency
 
-### <strike>16.</strike> 20. The vendor MUST make explicit the legal implications of substantially changing device usage.
+### 20. The vendor MUST make explicit the legal implications of substantially changing device usage.
 
 Assessment: The vendor submits a link to public user documentation explaining the (secondary) legal implications of changing how the device is used, or taking it offline.
 
 Example: Turning off a car's blackbox on the race track might lead to increased insurance fees.
 
-### <strike>17.</strike> 21. The vendor MUST make explicit the expected duration of the terms of service.
+### 21. The vendor MUST make explicit the expected duration of the terms of service.
 
 Assessment: The vendor submits a link to the terms of service which have to include a "best before" expiration date.
 
 Example: TODO
 
-### <strike>18.</strike> 22. The vendor MUST ask permission from users before changing the terms of service.
+### 22. The vendor MUST ask permission from users before changing the terms of service.
 
 Assessment: The vendor submits proof that terms & conditions changes are communicated to users and their permission is sought explicitly.
 
 Example: TODO
 
-### <strike>19.</strike> 23. The vendor MUST inform users about substantial firmware upgrades.
+### 23. The vendor MUST inform users about substantial firmware upgrades.
 
 Assessment: The vendor submits a link to a blog or feed or other public, auditable trail of firmware revisions.
 
@@ -273,49 +255,41 @@ Example: TODO
 
 ## Lifecycle
 
-### <strike>27.</strike> 28. The vendor MUST allow users to factory reset the device.
+### 28. The vendor MUST allow users to factory reset the device.
 
 Assessment: The vendor submits a link to public user documentation showing how to factory reset the device.
 
 Example: TODO
 
-### <strike>28.</strike> 29. The vendor MUST be clear about the expected service lifetime of the connected product.
+### 29. The vendor MUST be clear about the expected service lifetime of the connected product.
 
 Assessment: Include on the packaging of the product and on the online presence of the vendor a clear statement of intended lifetime and support. Post-lifetime support should be clearly explained ( replacement part vendor list. An End of Life T&C’s and End of Life actions should be well defined - including in case of bankruptcy, takeover, etc. Should include ‘what happens to my data?’ and ‘what happens to my device(s)?’
 
 Example: TODO
 
-### <strike>29.</strike> 30. The vendor MUST be clear about the levels of user support provided during the lifetime of the connected product.
+### 30. The vendor MUST be clear about the levels of user support provided during the lifetime of the connected product.
 
 Assessment: The vendor submits a link to a public description of user support mechanisms online or on the on the packaging.
 
 Example: TODO
 
-### <strike>12.</strike> 31. The vendor SHOULD NOT degrade or change the core functionality of the connected product over its lifetime.
+### 31. The vendor SHOULD NOT degrade or change the core functionality of the connected product over its lifetime.
 
 Assessment: Core functionality is declared once by the vendor and backed by submitting a link to public marketing materials. Compliance with the principle can be verified on audit or by users at any time by comparing the current functionality with the declared core functionality.
 
 Example: TODO
 
-### <strike>30.</strike> 32. The vendor SHOULD document any parts that a user can repair using common tools and skills.
+### 32. The vendor SHOULD document any parts that a user can repair using common tools and skills.
 
 Assessment: The vendor submits a link to public user documentation including a visual overview of how repairs can be done. Design files should be made available if the piece is expected to be 3D-printed.
 
 Example: TODO
 
-### <strike>31.</strike> 33. The vendor SHOULD supply spare parts on request during the lifecycle of the product.
+### 33. The vendor SHOULD supply spare parts on request during the lifecycle of the product.
 
 Assessment: A clear and accessible form that a user can fill in to request these parts should be included as part of the packaging or online presence of the vendor.
 
 Example: TODO
-
-### <strike>32. The vendor SHOULD be able to list the geographic regions involved in the supply chain.</strike>
-
-<strike>Assessment: Regions example: http://goodnightlamp.com/country-list/</strike>
-
-### <strike>33. The vendor SHOULD be able to list at least the first level of suppliers involved in their supply chain.</strike>
-
-<strike>Assessment: TODO</strike>
 
 # Contributors
 
