@@ -109,6 +109,19 @@ Assessment: The vendor submits a link to public documentation explaining how to 
 
 Example: TODO
 
+### xx. The vendor MUST consider government pervasive surveillance in the threat model
+
+Assessment: The vendor publishes a subset of their threat model that includes how they will defend their users against pervasive surveillance by the regional government.
+
+Example: [RFC7258](https://tools.ietf.org/html/rfc7258) and how Google Chrome [blocked](https://productforums.google.com/forum/#!topic/gmail/3J3r2JqFNTw) SSL MITM attacks in Iran
+
+### xx. The vendor MUST consider how their devices can propagate power imbalances
+
+Assessment: The vendor publishes a subset of their threat model that covers how their device can be used by powerful entities such as partners, bosses or parents to subjugate weaker users. The vendor publishes simply worded advice explaining who else may have power over the user's device, and what is possible.  Where possible they provide simple instructions to reset the device or break these bonds.
+
+Example: [How current devices are used by abusive partners](https://ai.google/research/pubs/pub46080)
+[Schools spying on student's webcams at home](https://en.wikipedia.org/wiki/Robbins_v._Lower_Merion_School_District)
+
 ## Interoperability
 Note: Interoperability is about making it technically possible to use devices, backends and clients of the vendor with those of a third party. Interoperability does not imply unrestricted access to user data.
 
