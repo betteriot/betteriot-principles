@@ -107,7 +107,7 @@ Example: TODO
 
 Assessment: The vendor submits a link to public documentation explaining how to stop automated decisions and get a human to re-evaluate the decision.
 
-Example: TODO
+Example: Enable a customer of an insurance product to "pause" traceability of behaviour for exceptional occasions. Weddings, drag races, holidays, where they might be driving faster, drinking more, not exercising for eg.
 
 ## Interoperability
 Note: Interoperability is about making it technically possible to use devices, backends and clients of the vendor with those of a third party. Interoperability does not imply unrestricted access to user data.
@@ -193,13 +193,13 @@ Example: TODO
 
 Assessment: The vendor submits a link to public user documentation explaining how to transfer ownership of a device to another user.
 
-Example: TODO
+Example: When someone moves apartment, they can move their thermostat data to the new thermostat.
 
 ### 19. When ownership of the device is transferred, the new user MUST NOT have access to previous user's data.
 
 Assessment: The vendor submits a link to video proof. The assessor collects user complaints.
 
-Example: TODO
+Example: Selling a connected product on the second hand market without accessing the old owner's data.
 
 ## Transparency
 
@@ -249,7 +249,7 @@ Example: TODO
 
 ### 27. The vendor MUST assess the risk of well known IoT threats on the connected product.
 
-Assessment: The vendor submits a risk assessment of the security of the device and its backend (OWASP Top 10, secure backend).
+Assessment: The vendor submits a risk assessment of the security of the device and its backend ([OWASP Top 10](https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project), secure backend).
 
 Example: TODO
 
@@ -259,7 +259,7 @@ Example: TODO
 
 Assessment: The vendor submits a link to public user documentation showing how to factory reset the device.
 
-Example: TODO
+Example: Selling a connected product on the second hand market without accessing the old owner's data.
 
 ### 29. The vendor MUST be clear about the expected service lifetime of the connected product.
 
@@ -271,13 +271,13 @@ Example: TODO
 
 Assessment: The vendor submits a link to a public description of user support mechanisms online or on the on the packaging.
 
-Example: TODO
+Example: Revolv claimed "lifetime support" to its customers and then was shut down when it was acquired by Google.
 
 ### 31. The vendor SHOULD NOT degrade or change the core functionality of the connected product over its lifetime.
 
 Assessment: Core functionality is declared once by the vendor and backed by submitting a link to public marketing materials. Compliance with the principle can be verified on audit or by users at any time by comparing the current functionality with the declared core functionality.
 
-Example: TODO
+Example: Sonos makes signing T&Cs compulsory to keep using the device.
 
 ### 32. The vendor SHOULD document any parts that a user can repair using common tools and skills.
 
