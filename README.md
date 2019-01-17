@@ -247,6 +247,12 @@ Assessment: Users need to change the password at first run, no unencrypted commu
 
 Example: TODO
 
+### xx. The vendor MUST be able to recover from security vulnerabilities in deployed devices
+
+Assessment: The vendor identifies any software that is exposed to the Internet and states how and for how long they will provide timely security updates to it.  They justify how they will meet that promise in the face of new product development. The vendor describes how they will recover from the compromise of each of the keys in the system.
+
+Example: TODO
+
 ### 27. The vendor MUST assess the risk of well known IoT threats on the connected product.
 
 Assessment: The vendor submits a risk assessment of the security of the device and its backend (OWASP Top 10, secure backend).
